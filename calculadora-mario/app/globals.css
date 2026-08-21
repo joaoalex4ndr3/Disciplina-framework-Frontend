@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ============================= */
+/* FUNDO */
+/* ============================= */
+
+main {
+  background:
+    linear-gradient(
+      to bottom,
+      #55baf5 0%,
+      #72cef5 70%,
+      #5abf4c 70%,
+      #5abf4c 100%
+    );
+}
+
+/* ============================= */
+/* CALCULADORA */
+/* ============================= */
+
+.calculator {
+  width: 390px;
+  max-width: 100%;
+  background: #f4f4f4;
+  border: 8px solid #222;
+  border-radius: 24px;
+  padding: 20px;
+  box-shadow:
+    0 12px 0 #111,
+    0 20px 30px rgba(0, 0, 0, 0.3);
+
+  position: relative;
+  z-index: 10;
+}
+
+/* ============================= */
+/* HEADER */
+/* ============================= */
+
+.calculator-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.character {
+  width: 58px;
+  height: 58px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #e52521;
+  border: 4px solid #111;
+  border-radius: 50%;
+
+  font-size: 30px;
+
+  box-shadow: 0 5px 0 #111;
+}
+
+.calculator-header h1 {
+  margin: 0;
+
+  font-family: "Press Start 2P", monospace;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #e52521;
+}
+
+.calculator-header p {
+  margin: 5px 0 0;
+  font-weight: bold;
+  color: #333;
+}
+
+/* ============================= */
+/* DISPLAY */
+/* ============================= */
+
+.display-container {
+  background: #222;
+  border-radius: 12px;
+  padding: 8px;
+  margin-bottom: 18px;
+}
+
+.display {
+  height: 82px;
+
+  background: #d9e8c5;
+
+  border: 5px solid #111;
+  border-radius: 7px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  padding: 0 15px;
+
+  font-family: "Press Start 2P", monospace;
+  font-size: 23px;
+
+  color: #1d321b;
+
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* ============================= */
+/* BOTÕES */
+/* ============================= */
+
+.buttons {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 10px;
+}
+
+.button {
+  min-height: 58px;
+
+  border: 4px solid #111;
+  border-radius: 12px;
+
+  font-size: 21px;
+  font-weight: 900;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 5px 0 #111;
+
+  transition:
+    transform 0.08s ease,
+    box-shadow 0.08s ease;
+}
+
+.button:hover {
+  filter: brightness(1.08);
+}
+
+.button:active {
+  transform: translateY(5px);
+  box-shadow: 0 0 0 #111;
+}
+
+/* Números */
+
+.number {
+  background: #ffffff;
+  color: #222;
+}
+
+/* Operadores */
+
+.operator {
+  background: #f8c51c;
+  color: #222;
+}
+
+/* AC / DEL */
+
+.action {
+  background: #e52521;
+  color: white;
+}
+
+/* Igual */
+
+.equals {
+  background: #159447;
+  color: white;
+
+  grid-row: span 2;
+}
+
+/* Zero */
+
+.zero {
+  grid-column: span 2;
+}
+
+/* ============================= */
+/* FOOTER */
+/* ============================= */
+
+.footer {
+  text-align: center;
+
+  margin-top: 17px;
+
+  font-family: "Press Start 2P", monospace;
+
+  font-size: 8px;
+
+  color: #333;
+}
+
+/* ============================= */
+/* ELEMENTOS DECORATIVOS */
+/* ============================= */
+
+.cloud {
+  position: absolute;
+
+  font-size: 65px;
+
+  opacity: 0.85;
+
+  user-select: none;
+}
+
+.cloud-one {
+  top: 8%;
+  left: 8%;
+}
+
+.cloud-two {
+  top: 18%;
+  right: 10%;
+}
+
+.cloud-three {
+  bottom: 14%;
+  left: 7%;
+}
+
+.decorative-star {
+  position: absolute;
+
+  font-size: 45px;
+
+  user-select: none;
+
+  animation: floating 2s ease-in-out infinite;
+}
+
+.star-one {
+  top: 12%;
+  right: 25%;
+}
+
+.star-two {
+  bottom: 15%;
+  right: 10%;
+}
+
+.decorative-mushroom {
+  position: absolute;
+
+  font-size: 50px;
+
+  user-select: none;
+
+  animation: floating 2.5s ease-in-out infinite;
+}
+
+.mushroom-one {
+  bottom: 10%;
+  left: 25%;
+}
+
+.mushroom-two {
+  top: 10%;
+  right: 5%;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* ============================= */
+/* RESPONSIVIDADE */
+/* ============================= */
+
+@media (max-width: 600px) {
+  .calculator {
+    width: 350px;
+    padding: 15px;
+  }
+
+  .calculator-header h1 {
+    font-size: 12px;
+  }
+
+  .button {
+    min-height: 55px;
+    font-size: 18px;
+  }
+
+  .display {
+    font-size: 18px;
+  }
+
+  .cloud {
+    font-size: 40px;
+  }
+
+  .decorative-star,
+  .decorative-mushroom {
+    font-size: 30px;
+  }
+}
