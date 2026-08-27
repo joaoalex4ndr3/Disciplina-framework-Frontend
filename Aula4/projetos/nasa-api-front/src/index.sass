@@ -1,0 +1,89 @@
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,400,600');
+// Set your brand colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$black: #000;
+
+// Update Bulma's global variables
+$body-size: 15px;
+$family-sans-serif: "IBM Plex Sans", sans-serif;
+$grey-dark: #0D151E;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $brown;
+
+// Update some of Bulma's component variables
+$control-border-width: 2px;
+$input-background-color: $beige-lighter;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Navbar component customization
+$navbar-background-color: transparent;
+
+// Card component modifiers
+$card-shadow: 0 1px 3px rgba($grey-light, 0.1), 0 0 0 0px rgba($grey-light, 0.1);
+$card-header-color: $grey-light
+$card-background-color:  lighten($grey-dark, 3%)
+$card-color: darken($grey-light, 25%)
+$card-footer-border-top: 2px solid rgba(200,200,200, .2)
+
+$hero-background-color: #090A0E;
+.is-dark.is-main-background
+  background-color: $hero-background-color !important
+
+// React spinning logo
+.App-logo
+  animation: App-logo-spin infinite 20s linear
+  height: 80px
+
+@keyframes App-logo-spin
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+
+
+// Apod-cards ui
+.zoomable-card, .zoomable-figure img
+  transition: all .15s ease-out
+.zoomable-card:hover, .zoomable-figure:hover img
+  transform: scale(1.04)
+.has-overflow-x-mobile
+  overflow: 'hidden'
+  @media screen and (max-width: 400px)
+    overflow-x: scroll
+    overflow-y: hidden
+
+// numeral
+p.numeral
+  line-height: 75%
+  margin-bottom: .3em
+  @media screen and (min-width: 567px)
+    line-height: 55%
+    font-size: 100px !important
+
+.is-tight
+  margin-bottom: .6em !important
+
+
+// Import the rest of Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/form.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/elements/image.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+
+@import "../node_modules/bulma/sass/grid/_all.sass";
+
+@import "../node_modules/bulma/sass/components/level.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/components/card.sass";
+@import "../node_modules/bulma/sass/components/message.sass";
+@import "../node_modules/bulma/sass/components/tabs.sass";
