@@ -1,0 +1,12 @@
+/* Keep minimal baseline; App.css defines theme and layout */
+:root {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+* { box-sizing: border-box; }
