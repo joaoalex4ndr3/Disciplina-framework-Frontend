@@ -1,0 +1,20 @@
+{
+  "message": {
+    "affenpinscher": [],
+    "african": [],
+    "airedale": [],
+    "akita": [],
+    "appenzeller": [],
+    "australian": [
+      "shepherd"
+    ],
+    "basenji": [],
+    "beagle": [],
+    "bulldog": [
+      "boston",
+      "english",
+      "french"
+    ]
+  },
+  "status": "success"
+}

@@ -1,0 +1,14 @@
+.side-bar{
+    min-width: 250px;
+}
+
+.side-header {
+    font-size: 1.5rem;
+    color: rgb(36, 36, 36);
+}
+
+.side-bar-container {
+    height: 100vh;
+    overflow: auto;
+}
+
