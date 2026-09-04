@@ -16,11 +16,11 @@ Repositório dedicado ao desenvolvimento da *Atividade 01 da Aula 03* da discipl
 
 | Tecnologia | Desenvolvedor | Link do Projeto |
 | :--- | :--- | :--- |
-| *React* | Tuanny | [https://github.com/TuannyThomazelli/Atividade3/tree/main/public](#) |
-| *Vue.js* | Rafaela | [https://github.com/senai-front-end/aula-frameworks-frontend/blob/main/Aulas/AULA%20-%2003/atividade-vue/vue-projeto.zip](#) |
-| *Angular* | Luís Felipe | [Acessar Projeto](#) |
-| *Next.js* | João Alexandre | [https://github.com/joaoalex4ndr3/Disciplina-framework-Frontend/tree/main/Aula3](#) |
-| *Projeto clonado*| Marco Antônio | Angular[https://github.com/mocotoTonin/project_angular-](#) Next.js [https://github.com/mocotoTonin/project_next] Vue [https://github.com/mocotoTonin/project_vue] React [https://github.com/mocotoTonin/project_react]|
+| *React* | Tuanny | [Repositório](https://github.com/TuannyThomazelli/Atividade3/tree/main/public) |
+| *Vue.js* | Rafaela | [Repositório](https://github.com/senai-front-end/aula-frameworks-frontend/blob/main/Aulas/AULA%20-%2003/atividade-vue/vue-projeto.zip) |
+| *Angular* | Luís Felipe | [Repositório](https://github.com/LuisFelipeCorreia/jogo-da-velha) |
+| *Next.js* | João Alexandre | [Repositório](https://github.com/joaoalex4ndr3/Disciplina-framework-Frontend/tree/main/Aula3) |
+| *Projeto clonado*| Marco Antônio | [Angular](https://github.com/mocotoTonin/project_angular-)  [Next.js](https://github.com/mocotoTonin/project_next)  [Vue] (https://github.com/mocotoTonin/project_vue)  [React](https://github.com/mocotoTonin/project_react)|
 
 ---
 
@@ -32,8 +32,3 @@ Repositório dedicado ao desenvolvimento da *Atividade 01 da Aula 03* da discipl
 * *Next.js:* Alta performance com renderização no servidor (SSR) e roteamento baseado em arquivos[cite: 5].
 
 ---
-
-## 👨‍💻 Autor
-
-Desenvolvido por *João Alexandre da Silva Pereira* — Aluno do SENAI 
-* [GitHub](https://github.com/joaoalex4ndr3)
