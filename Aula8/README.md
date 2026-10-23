@@ -57,3 +57,32 @@ Aplicação web desenvolvida como atividade acadêmica da aula de Frameworks Fro
 ## Observação
 
 As tarefas são armazenadas no estado da aplicação. Por isso, não ficam salvas permanentemente após recarregar a página.
+
+
+## Modelagem dos Componentes
+
+O mapa mental abaixo representa a organização dos componentes e os principais conceitos React utilizados no projeto.
+
+```mermaid
+mindmap
+  root((Gerenciador de Tarefas))
+    Interface
+      JSX
+      Formulario de tarefas
+      Lista de tarefas
+      Filtros
+      Resumo de tarefas
+    Conceitos React
+      Componentes
+      Props
+      useState
+      Virtual DOM
+      Renderizacao condicional
+      Listas e Keys
+    Funcionalidades
+      Adicionar tarefa
+      Concluir tarefa
+      Reabrir tarefa
+      Excluir tarefa
+      Filtrar tarefas
+```
