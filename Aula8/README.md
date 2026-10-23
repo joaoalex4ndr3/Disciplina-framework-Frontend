@@ -61,28 +61,56 @@ As tarefas são armazenadas no estado da aplicação. Por isso, não ficam salva
 
 ## Modelagem dos Componentes
 
-O mapa mental abaixo representa a organização dos componentes e os principais conceitos React utilizados no projeto.
+## Modelagem em Árvore dos Componentes
 
-```mermaid
-mindmap
-  root((Gerenciador de Tarefas))
-    Interface
-      JSX
-      Formulario de tarefas
-      Lista de tarefas
-      Filtros
-      Resumo de tarefas
-    Conceitos React
-      Componentes
-      Props
-      useState
-      Virtual DOM
-      Renderizacao condicional
-      Listas e Keys
-    Funcionalidades
-      Adicionar tarefa
-      Concluir tarefa
-      Reabrir tarefa
-      Excluir tarefa
-      Filtrar tarefas
+```text
+Gerenciador de Tarefas
+│
+├── App
+│   │
+│   ├── Cabeçalho
+│   │   ├── Título da aplicação
+│   │   └── Descrição
+│   │
+│   ├── Resumo de Tarefas
+│   │   ├── Total de tarefas
+│   │   ├── Tarefas pendentes
+│   │   └── Tarefas concluídas
+│   │
+│   ├── Formulário de Tarefas
+│   │   ├── Campo de título
+│   │   ├── Campo de descrição
+│   │   └── Botão adicionar
+│   │
+│   └── Lista de Tarefas
+│       ├── Filtro de tarefas
+│       │   ├── Todas
+│       │   ├── Pendentes
+│       │   └── Concluídas
+│       │
+│       └── Item de Tarefa
+│           ├── Título
+│           ├── Descrição
+│           ├── Status
+│           ├── Botão concluir/reabrir
+│           └── Botão excluir
+│
+└── Estilização
+    ├── App.css
+    └── index.css
 ```
+
+### Conceitos React utilizados
+
+- **JSX:** estrutura da interface.
+- **Componentes:** organização dos elementos da aplicação.
+- **Props:** passagem de dados e funções entre componentes, quando utilizada.
+- **useState:** gerenciamento do estado das tarefas e dos filtros.
+- **Listas e Keys:** renderização das tarefas com identificação de cada item.
+- **Renderização condicional:** apresentação dos estados das tarefas.
+- **Virtual DOM:** atualização eficiente da interface pelo React.
+```
+
+**Atenção:** essa árvore representa a organização visual e lógica proposta para o projeto. Como ainda não conferimos o conteúdo completo do seu `App.jsx`, os nomes dos componentes são ilustrativos e podem não corresponder a componentes separados no código.
+
+Para documentar a arquitetura real da aplicação, precisamos conferir o arquivo `Aula8/src/App.jsx` antes de publicar essa versão no GitHub.
