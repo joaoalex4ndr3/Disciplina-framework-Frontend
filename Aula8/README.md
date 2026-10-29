@@ -1,9 +1,14 @@
-
 # Gerenciador de Tarefas — React
 
 ## Descrição
 
 Aplicação web desenvolvida como atividade acadêmica da aula de Frameworks Front-end do SENAI. O projeto permite cadastrar, visualizar, concluir, filtrar e excluir tarefas.
+
+## 🌐 Aplicação Online
+
+O projeto está disponível online através da Vercel:
+
+**[Acessar o Gerenciador de Tarefas](https://react-gerenciador-tarefas-ihzwif1ng-joaoalex4ndr3s-projects.vercel.app)**
 
 ## Funcionalidades
 
