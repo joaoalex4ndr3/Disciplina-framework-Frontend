@@ -1,0 +1,120 @@
+
+/* Configurações gerais */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #1d4ed8;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-bottom: 25px;
+}
+
+/* Área principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Flexbox */
+.grade-elementos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+/* Os 20 elementos */
+.elemento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    min-height: 120px;
+
+    background-color: white;
+    color: #1d4ed8;
+
+    padding: 20px;
+    border: 2px solid #1d4ed8;
+    margin: 0;
+
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Efeito ao passar o mouse */
+.elemento:hover {
+    background-color: #dbeafe;
+    transform: translateY(-3px);
+    transition: 0.2s;
+}
+
+/* Rodapé */
+.rodape {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+}
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+    .grade-elementos {
+        gap: 12px;
+    }
+
+    .elemento {
+        width: calc(50% - 12px);
+        min-height: 100px;
+        font-size: 16px;
+    }
+
+    .cabecalho {
+        padding: 20px 10px;
+    }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .grade-elementos {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .elemento {
+        width: 100%;
+        min-height: 80px;
+    }
+}

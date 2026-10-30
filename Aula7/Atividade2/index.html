@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Atividade 02 - Tailwind CSS</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="min-h-screen bg-slate-100 font-sans text-slate-800">
+
+    <header class="bg-blue-700 p-6 text-center text-white shadow-lg">
+        <h1 class="text-3xl font-bold">
+            Atividade 02 - Tailwind CSS
+        </h1>
+
+        <p class="mt-2 text-blue-100">
+            Explorando classes utilitárias e responsividade
+        </p>
+    </header>
+
+    <main class="mx-auto max-w-6xl p-6">
+
+        <section class="mb-8 rounded-xl bg-white p-6 shadow-md">
+
+            <h2 class="mb-4 text-2xl font-bold text-blue-700">
+                Sobre o projeto
+            </h2>
+
+            <p class="text-base leading-relaxed text-slate-600">
+                Este projeto foi desenvolvido para a atividade de
+                Frameworks CSS, utilizando o Tailwind CSS para
+                estilizar elementos HTML por meio de classes utilitárias.
+            </p>
+
+            <a
+                href="#elementos"
+                class="mt-5 inline-block rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-800"
+            >
+                Conhecer os elementos
+            </a>
+
+        </section>
+
+        <section id="elementos">
+
+            <h2 class="mb-6 text-2xl font-bold text-slate-800">
+                Elementos da página
+            </h2>
+
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+                <article class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:shadow-lg">
+
+                    <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 text-xl font-bold text-blue-700">
+                        01
+                    </div>
+
+                    <h3 class="mb-2 text-xl font-semibold">
+                        Layout
+                    </h3>
+
+                    <p class="mb-4 leading-relaxed text-slate-600">
+                        Organização dos elementos utilizando Grid,
+                        Flexbox e recursos de responsividade.
+                    </p>
+
+                    <span class="inline-block rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-700">
+                        Responsivo
+                    </span>
+
+                </article>
+
+                <article class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:shadow-lg">
+
+                    <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-purple-100 text-xl font-bold text-purple-700">
+                        02
+                    </div>
+
+                    <h3 class="mb-2 text-xl font-semibold">
+                        Estilização
+                    </h3>
+
+                    <p class="mb-4 leading-relaxed text-slate-600">
+                        Aplicação de cores, tipografia, espaçamentos,
+                        bordas e efeitos visuais.
+                    </p>
+
+                    <span class="inline-block rounded-full bg-purple-100 px-3 py-1 text-sm font-medium text-purple-700">
+                        Personalizado
+                    </span>
+
+                </article>
+
+                <article class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:shadow-lg">
+
+                    <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-orange-100 text-xl font-bold text-orange-700">
+                        03
+                    </div>
+
+                    <h3 class="mb-2 text-xl font-semibold">
+                        Componentes
+                    </h3>
+
+                    <p class="mb-4 leading-relaxed text-slate-600">
+                        Construção de cards, botões e outros
+                        elementos de uma interface web.
+                    </p>
+
+                    <span class="inline-block rounded-full bg-orange-100 px-3 py-1 text-sm font-medium text-orange-700">
+                        Organizado
+                    </span>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="mt-10 rounded-xl bg-blue-50 p-6">
+
+            <h2 class="mb-3 text-xl font-bold text-blue-800">
+                O que foi utilizado?
+            </h2>
+
+            <ul class="list-inside list-disc space-y-2 text-slate-700">
+                <li>Classes utilitárias do Tailwind CSS</li>
+                <li>Flexbox e CSS Grid</li>
+                <li>Espaçamentos, cores e tipografia</li>
+                <li>Bordas arredondadas e sombras</li>
+                <li>Breakpoints para responsividade</li>
+                <li>Efeitos de interação com hover</li>
+            </ul>
+
+        </section>
+
+    </main>
+
+    <footer class="mt-10 bg-slate-900 p-6 text-center text-white">
+
+        <p class="text-sm">
+            Atividade 02 — Frameworks Front-end
+        </p>
+
+        <p class="mt-2 text-sm text-slate-400">
+            Desenvolvido com HTML5 e Tailwind CSS.
+        </p>
+
+    </footer>
+
+</body>
+</html>
