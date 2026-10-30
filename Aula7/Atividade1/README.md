@@ -1,18 +1,74 @@
-```markdown
-# Atividade 01 — CSS, Box Model e Flexbox
+# Aula 7 — Frameworks CSS | Atividade 1
 
-## Objetivo
+## 📌 Sobre a atividade
 
-Desenvolver uma página web utilizando HTML5 e CSS3, aplicando os conceitos de CSS externo, Box Model, Flexbox e responsividade.
+Esta atividade tem como objetivo aplicar os conhecimentos de HTML5 e CSS3 no desenvolvimento de uma página web, explorando a estruturação de elementos, a estilização externa e a organização de layouts responsivos.
 
-## Tecnologias utilizadas
+O projeto foi desenvolvido como parte da disciplina de Frameworks Frontend, com foco na prática de conceitos fundamentais de CSS, incluindo o Box Model e o Flexbox.
 
-- HTML5
-- CSS3
-- Visual Studio Code
-- Live Server
+## 🌐 Projeto publicado
 
-## Estrutura do projeto
+O projeto está disponível online por meio da Vercel.
+
+**🔗 [Acessar o projeto — Aula 7, Atividade 1](https://aula7-atividade1.vercel.app)**
+
+## 🛠️ Tecnologias utilizadas
+
+- **HTML5:** criação e estruturação do conteúdo da página.
+- **CSS3:** estilização dos elementos e definição do layout.
+- **Flexbox:** organização, alinhamento e distribuição dos elementos.
+- **Box Model:** controle das dimensões, margens, bordas e espaçamentos dos elementos.
+
+## 🎯 Objetivos
+
+- Desenvolver uma página web utilizando HTML5.
+- Aplicar CSS externo para estilizar os elementos.
+- Trabalhar com pelo menos 20 elementos HTML.
+- Compreender e aplicar o conceito de Box Model.
+- Utilizar propriedades do Flexbox para organizar os elementos.
+- Explorar propriedades CSS para construir um layout organizado e responsivo.
+- Praticar a separação entre estrutura HTML e apresentação visual.
+
+## 📚 Conceitos aplicados
+
+### 1. HTML5
+
+O HTML foi utilizado para estruturar os elementos da página e organizar seu conteúdo de maneira semântica e organizada.
+
+### 2. CSS externo
+
+A estilização foi separada do documento HTML por meio de um arquivo CSS externo, facilitando a manutenção e a organização do código.
+
+### 3. Box Model
+
+O Box Model representa a forma como o navegador calcula e organiza as dimensões dos elementos HTML. Ele é composto por quatro partes principais:
+
+- **Content:** conteúdo do elemento.
+- **Padding:** espaçamento interno entre o conteúdo e a borda.
+- **Border:** borda ao redor do elemento.
+- **Margin:** espaçamento externo entre os elementos.
+
+### 4. Flexbox
+
+O Flexbox é um modelo de layout CSS que facilita o alinhamento e a distribuição dos elementos dentro de um contêiner.
+
+Entre suas propriedades estão:
+
+- `display: flex`
+- `flex-direction`
+- `flex-wrap`
+- `justify-content`
+- `align-items`
+- `align-content`
+- `gap`
+- `flex-grow`
+- `flex-shrink`
+- `flex-basis`
+- `align-self`
+
+Essas propriedades permitem organizar os elementos de maneira flexível, facilitando a construção de layouts adaptáveis a diferentes tamanhos de tela.
+
+## 📁 Estrutura do projeto
 
 ```text
 Atividade1/
@@ -21,214 +77,31 @@ Atividade1/
 └── README.md
 ```
 
-## Conceitos aplicados
+### Descrição dos arquivos
 
-### CSS externo
-
-Os estilos da página foram organizados no arquivo `style.css` e vinculados ao documento HTML por meio da tag `<link>`.
-
-### Box Model
-
-Foram utilizadas as propriedades:
-
-- Content: área destinada ao conteúdo do elemento.
-- Padding: espaçamento interno entre o conteúdo e a borda.
-- Border: borda que envolve o conteúdo e o padding.
-- Margin: espaçamento externo entre os elementos.
-
-### Flexbox
-
-Foram utilizadas propriedades do Flexbox para organizar e alinhar os elementos da página.
-
-- `display: flex`: ativa o Flexbox.
-- `flex-direction`: define a direção dos elementos.
-- `flex-wrap`: permite a quebra de linha.
-- `justify-content`: controla a distribuição dos elementos.
-- `align-items`: controla o alinhamento dos elementos.
-- `gap`: define o espaçamento entre os elementos.
-
-### Responsividade
-
-Foram utilizadas media queries para adaptar a organização dos elementos a diferentes tamanhos de tela, incluindo computadores, tablets e celulares.
-
-## Resultado esperado
-
-A página apresenta um cabeçalho, 20 elementos organizados com Flexbox e um rodapé. O layout se adapta a diferentes larguras de tela.
-
-## Capturas de tela
-
-### Código-fonte
-
-Adicione uma captura de tela do código HTML e CSS.
-
-### Aplicação em funcionamento
-
-Adicione uma captura de tela da página aberta no navegador.
-
-## Conclusão
-
-A atividade permitiu praticar os fundamentos do CSS, compreender o funcionamento do Box Model e utilizar o Flexbox para criar layouts organizados e responsivos.
-```
-
----
-
-## 2. README.md — Atividade2
-
-**Onde criar:** `Aula7/Atividade2/README.md`
-
-Agora, clique com o botão direito na pasta `Atividade2`, selecione **New File**, digite `README.md` e cole o conteúdo abaixo.
-
-```markdown
-# Atividade 02 — Tailwind CSS
-
-## Objetivo
-
-Desenvolver uma página web utilizando o framework Tailwind CSS, aplicando pelo menos 30 classes diferentes para estilizar os elementos da interface.
-
-## Tecnologias utilizadas
-
-- HTML5
-- Tailwind CSS
-- Visual Studio Code
-- Live Server
-
-## Estrutura do projeto
-
-```text
-Atividade2/
-├── index.html
-├── README.md
-└── prints/
-    ├── codigo-html.png
-    └── aplicacao.png
-```
-
-## Sobre o projeto
-
-O projeto consiste em uma página web desenvolvida com Tailwind CSS. A interface apresenta um cabeçalho, uma seção introdutória, um botão, três cards informativos, uma lista de recursos utilizados e um rodapé.
-
-O Tailwind CSS utiliza classes utilitárias diretamente no HTML, permitindo definir cores, espaçamentos, tipografia, bordas, dimensões e layouts.
-
-## Classes utilizadas
-
-| Classe | Função |
+| Arquivo | Descrição |
 |---|---|
-| `min-h-screen` | Define a altura mínima da página |
-| `bg-slate-100` | Define o fundo cinza-claro |
-| `font-sans` | Define uma fonte sem serifa |
-| `text-slate-800` | Define a cor do texto |
-| `bg-blue-700` | Define o fundo azul |
-| `p-6` | Define o espaçamento interno |
-| `text-center` | Centraliza o texto |
-| `text-white` | Define o texto branco |
-| `shadow-lg` | Aplica uma sombra maior |
-| `text-3xl` | Define um texto grande |
-| `font-bold` | Aplica negrito |
-| `mt-2` | Define margem superior |
-| `text-blue-100` | Define o texto azul-claro |
-| `mx-auto` | Centraliza horizontalmente |
-| `max-w-6xl` | Limita a largura máxima |
-| `mb-8` | Define margem inferior |
-| `rounded-xl` | Arredonda os cantos |
-| `bg-white` | Define o fundo branco |
-| `shadow-md` | Aplica sombra média |
-| `mb-4` | Define margem inferior |
-| `text-2xl` | Define o tamanho do texto |
-| `text-blue-700` | Define o texto azul |
-| `text-base` | Define o tamanho padrão do texto |
-| `leading-relaxed` | Ajusta o espaçamento entre linhas |
-| `text-slate-600` | Define o texto cinza |
-| `mt-5` | Define margem superior |
-| `inline-block` | Permite dimensões de bloco em linha |
-| `rounded-lg` | Arredonda os cantos |
-| `bg-blue-600` | Define o fundo azul |
-| `px-6` | Define o espaçamento horizontal |
-| `py-3` | Define o espaçamento vertical |
-| `font-semibold` | Aplica seminegrito |
-| `transition` | Aplica transições de estilo |
-| `hover:bg-blue-800` | Escurece o fundo ao passar o mouse |
-| `grid` | Ativa o layout Grid |
-| `grid-cols-1` | Define uma coluna |
-| `gap-6` | Define o espaçamento entre elementos |
-| `sm:grid-cols-2` | Define duas colunas em telas maiores |
-| `lg:grid-cols-3` | Define três colunas em telas grandes |
-| `border` | Adiciona uma borda |
-| `border-slate-200` | Define a cor da borda |
-| `shadow-sm` | Aplica sombra pequena |
-| `hover:shadow-lg` | Aumenta a sombra ao passar o mouse |
-| `flex` | Ativa o Flexbox |
-| `h-12` | Define a altura do elemento |
-| `w-12` | Define a largura do elemento |
-| `items-center` | Alinha os itens no eixo transversal |
-| `justify-center` | Centraliza os itens |
-| `rounded-full` | Cria cantos totalmente arredondados |
-| `text-xl` | Define um texto grande |
-| `bg-blue-100` | Define o fundo azul-claro |
-| `text-purple-700` | Define o texto roxo |
-| `bg-green-100` | Define o fundo verde-claro |
-| `text-green-700` | Define o texto verde |
-| `bg-purple-100` | Define o fundo roxo-claro |
-| `bg-orange-100` | Define o fundo laranja-claro |
-| `text-orange-700` | Define o texto laranja |
-| `mt-10` | Define margem superior |
-| `list-inside` | Posiciona os marcadores dentro da lista |
-| `list-disc` | Define marcadores em forma de disco |
-| `space-y-2` | Define espaçamento vertical entre itens |
-| `text-sm` | Define texto pequeno |
-| `text-slate-400` | Define o texto cinza-claro |
+| `index.html` | Contém a estrutura e o conteúdo da página. |
+| `style.css` | Contém as regras CSS responsáveis pela estilização e organização visual. |
+| `README.md` | Documenta a atividade, suas tecnologias e seus objetivos. |
 
-## Capturas de tela
+## 🚀 Como executar o projeto localmente
 
-### Código HTML
+Para visualizar o projeto em seu computador:
 
-A captura de tela do código está localizada em:
+1. Clone o repositório do GitHub.
+2. Abra a pasta `Aula7/Atividade1`.
+3. Abra o arquivo `index.html` no navegador.
+4. Para editar a aparência da página, modifique o arquivo `style.css`.
 
-`prints/codigo-html.png`
+## 📤 Publicação
 
-![Código HTML](prints/codigo-html.png)
+O projeto foi publicado utilizando a plataforma Vercel, permitindo o acesso à página por meio de um endereço público.
 
-### Aplicação em funcionamento
+**Link de acesso:** https://aula7-atividade1.vercel.app
 
-A captura de tela da aplicação está localizada em:
+## 👨‍💻 Autor
 
-`prints/aplicacao.png`
+**João Alexandre**
 
-![Aplicação em funcionamento](prints/aplicacao.png)
-
-## Link do projeto
-
-Adicione aqui o link do repositório no GitHub.
-
-## Conclusão
-
-A atividade permitiu praticar o uso do Tailwind CSS e compreender como as classes utilitárias facilitam a estilização de interfaces. Também foram utilizados recursos de Grid, Flexbox e responsividade para organizar os elementos da página.
-```
-
----
-
-## 3. Confira a estrutura final
-
-Depois de criar os dois READMEs, sua pasta `Aula7` ficará assim:
-
-```text
-Aula7/
-├── Atividade1/
-│   ├── index.html
-│   ├── style.css
-│   └── README.md
-│
-└── Atividade2/
-    ├── index.html
-    ├── README.md
-    └── prints/
-        ├── codigo-html.png
-        └── aplicacao.png
-```
-
-### Antes de finalizar
-
-1. **Atividade1:** tire as capturas do código e da página funcionando, caso queira documentá-las.
-2. **Atividade2:** crie a pasta `prints` e adicione as duas imagens com os nomes indicados.
-3. No README da Atividade2, substitua o texto sobre o repositório pelo link real do GitHub.
-
-**Importante:** as referências às imagens no Markdown não criam os arquivos de imagem automaticamente. Você ainda precisa tirar e salvar as capturas de tela para que elas apareçam no README.
+Projeto desenvolvido como atividade acadêmica da disciplina de Frameworks Frontend.
