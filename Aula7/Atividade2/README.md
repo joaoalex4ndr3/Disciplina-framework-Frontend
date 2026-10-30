@@ -1,125 +1,116 @@
-```markdown
-# Atividade 02 — Tailwind CSS
+# Aula 7 — Frameworks CSS | Atividade 2
 
-## Objetivo
+## 📌 Sobre a atividade
 
-Desenvolver uma página web utilizando o framework Tailwind CSS, aplicando pelo menos 30 classes diferentes para estilizar os elementos da interface.
+Esta atividade tem como objetivo praticar a utilização do **Tailwind CSS**, um framework CSS baseado em classes utilitárias que permite estilizar páginas diretamente no HTML.
 
-## Tecnologias utilizadas
+O projeto foi desenvolvido como parte da disciplina de Frameworks Frontend, com foco na construção de interfaces, na aplicação de estilos e na utilização de classes utilitárias para organizar os elementos da página.
 
-- HTML5
-- Tailwind CSS
-- Visual Studio Code
-- Live Server
+## 🌐 Projeto publicado
 
-## Estrutura do projeto
+O projeto está disponível online por meio da Vercel.
+
+**🔗 [Acessar o projeto — Aula 7, Atividade 2](https://aula7-atividade2.vercel.app)**
+
+## 🛠️ Tecnologias utilizadas
+
+- **HTML5:** estruturação do conteúdo da página.
+- **Tailwind CSS:** estilização por meio de classes utilitárias.
+- **Vercel:** publicação e hospedagem do projeto.
+
+## 🎯 Objetivos da atividade
+
+- Conhecer e aplicar o framework Tailwind CSS.
+- Utilizar pelo menos 30 classes diferentes do Tailwind CSS.
+- Criar e estilizar elementos de uma página web.
+- Aplicar cores, espaçamentos, tipografia, alinhamentos e outras propriedades visuais.
+- Praticar a construção de interfaces utilizando classes utilitárias.
+- Documentar o projeto no GitHub.
+- Disponibilizar o projeto por meio de um link público.
+
+## 📚 Sobre o Tailwind CSS
+
+O Tailwind CSS é um framework CSS que disponibiliza classes utilitárias para aplicar estilos diretamente aos elementos HTML.
+
+Em vez de criar regras CSS personalizadas para cada elemento, é possível combinar classes para definir características como cores, tamanhos, margens, espaçamentos, alinhamentos e comportamento responsivo.
+
+### Exemplos de classes utilitárias
+
+| Classe | Função |
+|---|---|
+| `flex` | Define um contêiner Flexbox. |
+| `grid` | Define um contêiner Grid. |
+| `items-center` | Alinha os itens ao centro no eixo transversal. |
+| `justify-center` | Centraliza os itens no eixo principal. |
+| `gap-4` | Define espaçamento entre os elementos. |
+| `p-4` | Define espaçamento interno. |
+| `m-4` | Define margem. |
+| `rounded-lg` | Aplica bordas arredondadas. |
+| `shadow-lg` | Aplica uma sombra. |
+| `text-center` | Centraliza o texto. |
+| `font-bold` | Aplica uma fonte em negrito. |
+| `bg-blue-500` | Define uma cor de fundo azul. |
+| `text-white` | Define a cor do texto como branco. |
+| `w-full` | Define a largura como 100%. |
+| `hover:bg-blue-700` | Altera a cor de fundo durante o estado de hover. |
+
+## 🖼️ Capturas de tela
+
+Adicione nesta seção as capturas de tela que demonstram o funcionamento e a aparência da aplicação.
+
+As imagens podem ser armazenadas em uma pasta chamada `prints`.
+
+Exemplo de organização:
 
 ```text
 Atividade2/
 ├── index.html
 ├── README.md
 └── prints/
-    ├── codigo-html.png
-    └── aplicacao.png
+    ├── tela-inicial.png
+    └── resultado.png
 ```
 
-## Sobre o projeto
+Depois de adicionar as imagens ao repositório, você poderá exibi-las aqui utilizando Markdown:
 
-O projeto consiste em uma página web desenvolvida com Tailwind CSS. A interface apresenta um cabeçalho, uma seção introdutória, um botão, três cards informativos, uma lista de recursos utilizados e um rodapé.
+```markdown
+![Tela inicial do projeto](./prints/tela-inicial.png)
 
-O Tailwind CSS utiliza classes utilitárias diretamente no HTML, permitindo definir cores, espaçamentos, tipografia, bordas, dimensões e layouts.
+![Resultado da aplicação](./prints/resultado.png)
+```
 
-## Classes utilizadas
+## 📁 Estrutura do projeto
 
-| Classe | Função |
+```text
+Atividade2/
+├── index.html
+├── README.md
+└── prints/
+```
+
+### Descrição dos arquivos
+
+| Arquivo ou pasta | Descrição |
 |---|---|
-| `min-h-screen` | Define a altura mínima da página |
-| `bg-slate-100` | Define o fundo cinza-claro |
-| `font-sans` | Define uma fonte sem serifa |
-| `text-slate-800` | Define a cor do texto |
-| `bg-blue-700` | Define o fundo azul |
-| `p-6` | Define o espaçamento interno |
-| `text-center` | Centraliza o texto |
-| `text-white` | Define o texto branco |
-| `shadow-lg` | Aplica uma sombra maior |
-| `text-3xl` | Define um texto grande |
-| `font-bold` | Aplica negrito |
-| `mt-2` | Define margem superior |
-| `text-blue-100` | Define o texto azul-claro |
-| `mx-auto` | Centraliza horizontalmente |
-| `max-w-6xl` | Limita a largura máxima |
-| `mb-8` | Define margem inferior |
-| `rounded-xl` | Arredonda os cantos |
-| `bg-white` | Define o fundo branco |
-| `shadow-md` | Aplica sombra média |
-| `mb-4` | Define margem inferior |
-| `text-2xl` | Define o tamanho do texto |
-| `text-blue-700` | Define o texto azul |
-| `text-base` | Define o tamanho padrão do texto |
-| `leading-relaxed` | Ajusta o espaçamento entre linhas |
-| `text-slate-600` | Define o texto cinza |
-| `mt-5` | Define margem superior |
-| `inline-block` | Permite dimensões de bloco em linha |
-| `rounded-lg` | Arredonda os cantos |
-| `bg-blue-600` | Define o fundo azul |
-| `px-6` | Define o espaçamento horizontal |
-| `py-3` | Define o espaçamento vertical |
-| `font-semibold` | Aplica seminegrito |
-| `transition` | Aplica transições de estilo |
-| `hover:bg-blue-800` | Escurece o fundo ao passar o mouse |
-| `grid` | Ativa o layout Grid |
-| `grid-cols-1` | Define uma coluna |
-| `gap-6` | Define o espaçamento entre elementos |
-| `sm:grid-cols-2` | Define duas colunas em telas maiores |
-| `lg:grid-cols-3` | Define três colunas em telas grandes |
-| `border` | Adiciona uma borda |
-| `border-slate-200` | Define a cor da borda |
-| `shadow-sm` | Aplica sombra pequena |
-| `hover:shadow-lg` | Aumenta a sombra ao passar o mouse |
-| `flex` | Ativa o Flexbox |
-| `h-12` | Define a altura do elemento |
-| `w-12` | Define a largura do elemento |
-| `items-center` | Alinha os itens no eixo transversal |
-| `justify-center` | Centraliza os itens |
-| `rounded-full` | Cria cantos totalmente arredondados |
-| `text-xl` | Define um texto grande |
-| `bg-blue-100` | Define o fundo azul-claro |
-| `text-purple-700` | Define o texto roxo |
-| `bg-green-100` | Define o fundo verde-claro |
-| `text-green-700` | Define o texto verde |
-| `bg-purple-100` | Define o fundo roxo-claro |
-| `bg-orange-100` | Define o fundo laranja-claro |
-| `text-orange-700` | Define o texto laranja |
-| `mt-10` | Define margem superior |
-| `list-inside` | Posiciona os marcadores dentro da lista |
-| `list-disc` | Define marcadores em forma de disco |
-| `space-y-2` | Define espaçamento vertical entre itens |
-| `text-sm` | Define texto pequeno |
-| `text-slate-400` | Define o texto cinza-claro |
+| `index.html` | Contém a estrutura HTML e as classes utilizadas para estilizar a página. |
+| `README.md` | Apresenta a documentação, os objetivos e o link de acesso ao projeto. |
+| `prints/` | Armazena as capturas de tela da aplicação. |
 
-## Capturas de tela
+## 🚀 Como executar o projeto localmente
 
-### Código HTML
+1. Clone o repositório do GitHub.
+2. Acesse a pasta `Aula7/Atividade2`.
+3. Abra o arquivo `index.html` no navegador, seguindo a configuração utilizada no projeto.
+4. Para visualizar a versão publicada, acesse o link da Vercel.
 
-A captura de tela do código está localizada em:
+## 📤 Publicação
 
-`prints/codigo-html.png`
+O projeto foi publicado por meio da plataforma Vercel, permitindo que a aplicação seja acessada pela internet.
 
-![Código HTML](prints/codigo-html.png)
+**Link do projeto:** https://aula7-atividade2.vercel.app
 
-### Aplicação em funcionamento
+## 👨‍💻 Autor
 
-A captura de tela da aplicação está localizada em:
+**João Alexandre**
 
-`prints/aplicacao.png`
-
-![Aplicação em funcionamento](prints/aplicacao.png)
-
-## Link do projeto
-
-Adicione aqui o link do repositório no GitHub.
-
-## Conclusão
-
-A atividade permitiu praticar o uso do Tailwind CSS e compreender como as classes utilitárias facilitam a estilização de interfaces. Também foram utilizados recursos de Grid, Flexbox e responsividade para organizar os elementos da página.
-```
+Projeto desenvolvido como atividade acadêmica da disciplina de Frameworks Frontend.
