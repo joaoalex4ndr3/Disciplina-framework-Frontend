@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css'; // Importa o arquivo CSS
 
-const API_URL = 'https://express-crud-json.onrender.com/api/notes';
+const API_URL = 'https://express-backend-aula05-134x.onrender.com/api/notes';
 
 function App() {
   const [notas, setNotas] = useState([]);
