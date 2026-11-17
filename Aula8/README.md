@@ -8,7 +8,7 @@ Aplicação web desenvolvida como atividade acadêmica da aula de Frameworks Fro
 
 O projeto está disponível online através da Vercel:
 
-**[Acessar o Gerenciador de Tarefas](https://react-gerenciador-tarefas-ihzwif1ng-joaoalex4ndr3s-projects.vercel.app)**
+**[Acessar o Gerenciador de Tarefas](https://react-gerenciador-tarefas-opal.vercel.app/)**
 
 ## Funcionalidades
 
