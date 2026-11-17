@@ -1,25 +1,25 @@
 # Aula 7 — Frameworks CSS | Atividade 1
 
-## 📌 Sobre a atividade
+## Sobre a atividade
 
 Esta atividade tem como objetivo aplicar os conhecimentos de HTML5 e CSS3 no desenvolvimento de uma página web, explorando a estruturação de elementos, a estilização externa e a organização de layouts responsivos.
 
 O projeto foi desenvolvido como parte da disciplina de Frameworks Frontend, com foco na prática de conceitos fundamentais de CSS, incluindo o Box Model e o Flexbox.
 
-## 🌐 Projeto publicado
+## Projeto publicado
 
 O projeto está disponível online por meio da Vercel.
 
-**🔗 [Acessar o projeto — Aula 7, Atividade 1](https://aula7-atividade1.vercel.app)**
+**[Acessar o projeto — Aula 7, Atividade 1](https://aula7-atividade1.vercel.app)**
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - **HTML5:** criação e estruturação do conteúdo da página.
 - **CSS3:** estilização dos elementos e definição do layout.
 - **Flexbox:** organização, alinhamento e distribuição dos elementos.
 - **Box Model:** controle das dimensões, margens, bordas e espaçamentos dos elementos.
 
-## 🎯 Objetivos
+## Objetivos
 
 - Desenvolver uma página web utilizando HTML5.
 - Aplicar CSS externo para estilizar os elementos.
@@ -29,7 +29,7 @@ O projeto está disponível online por meio da Vercel.
 - Explorar propriedades CSS para construir um layout organizado e responsivo.
 - Praticar a separação entre estrutura HTML e apresentação visual.
 
-## 📚 Conceitos aplicados
+## Conceitos aplicados
 
 ### 1. HTML5
 
@@ -68,7 +68,7 @@ Entre suas propriedades estão:
 
 Essas propriedades permitem organizar os elementos de maneira flexível, facilitando a construção de layouts adaptáveis a diferentes tamanhos de tela.
 
-## 📁 Estrutura do projeto
+## Estrutura do projeto
 
 ```text
 Atividade1/
@@ -85,7 +85,7 @@ Atividade1/
 | `style.css` | Contém as regras CSS responsáveis pela estilização e organização visual. |
 | `README.md` | Documenta a atividade, suas tecnologias e seus objetivos. |
 
-## 🚀 Como executar o projeto localmente
+## Como executar o projeto localmente
 
 Para visualizar o projeto em seu computador:
 
@@ -94,13 +94,13 @@ Para visualizar o projeto em seu computador:
 3. Abra o arquivo `index.html` no navegador.
 4. Para editar a aparência da página, modifique o arquivo `style.css`.
 
-## 📤 Publicação
+## Publicação
 
 O projeto foi publicado utilizando a plataforma Vercel, permitindo o acesso à página por meio de um endereço público.
 
 **Link de acesso:** https://aula7-atividade1.vercel.app
 
-## 👨‍💻 Autor
+## Autor
 
 **João Alexandre**
 
