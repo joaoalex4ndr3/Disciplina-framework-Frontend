@@ -1,15 +1,17 @@
 # Disciplina Framework Frontend
 
-## Projetos na Vercel
+## Atividades e projetos
 
-| Projeto | Breve descrição | Deploy na Vercel |
+| Projeto | Breve descrição | GitHub |
 | --- | --- | --- |
-| [Aula 2 · Super Calculadora Mario](Aula2/) | Calculadora temática desenvolvida com Next.js. | [Abrir calculadora](https://calculadora-mario.vercel.app/) |
-| [Aula 3 · Calculadora React](Aula3/) | Calculadora com operações básicas, porcentagem e inversão de sinal. | [Abrir calculadora](https://framework-frontend-aula3.vercel.app/) |
-| [Aula 5 · Aplicativo de notas](Aula5/) | Interface React para cadastrar, consultar, editar e excluir notas por uma API Express. | [Abrir aplicativo](https://expressfrontendaula5.vercel.app/) |
-| [Aula 7 · Atividade 1](Aula7/Atividade1/) | Atividade de interface com HTML e CSS. | [Abrir atividade](https://aula7-atividade1.vercel.app/) |
-| [Aula 7 · Atividade 2](Aula7/Atividade2/) | Atividade de interface com Tailwind CSS. | [Abrir atividade](https://aula7-atividade2.vercel.app/) |
-| [Aula 8 · Gerenciador de tarefas](Aula8/) | Aplicação para organizar tarefas construída com React e Vite. | [Abrir gerenciador](https://react-gerenciador-tarefas-opal.vercel.app/) |
+| [Aula 1 · Relatório sobre Vue](Aula1/) | Relatório técnico sobre o framework Vue. | [Ver atividade](Aula1/) |
+| [Aula 2 · Super Calculadora Mario](Aula2/) | Calculadora temática desenvolvida com Next.js. | [Ver atividade](Aula2/) |
+| [Aula 3 · Calculadora React](Aula3/) | Calculadora com operações básicas, porcentagem e inversão de sinal. | [Ver atividade](Aula3/) |
+| [Aula 4 · Projetos frontend com APIs](Aula4/) | Repositórios clonados para estudo de interfaces e integração com APIs. | [Ver atividade](Aula4/) |
+| [Aula 5 · Aplicativo de notas](Aula5/) | Interface React para cadastrar, consultar, editar e excluir notas por uma API Express. | [Ver atividade](Aula5/) |
+| [Aula 7 · Atividade 1](Aula7/Atividade1/) | Atividade de interface com HTML e CSS. | [Ver atividade](Aula7/Atividade1/) |
+| [Aula 7 · Atividade 2](Aula7/Atividade2/) | Atividade de interface com Tailwind CSS. | [Ver atividade](Aula7/Atividade2/) |
+| [Aula 8 · Gerenciador de tarefas](Aula8/) | Aplicação para organizar tarefas construída com React e Vite. | [Ver atividade](Aula8/) |
 
 A [Aula 1](Aula1/) contém um relatório sobre Vue, a [Aula 4](Aula4/) reúne repositórios clonados para estudo e a [Aula 6](Aula6/) contém material da disciplina em PDF.
 
