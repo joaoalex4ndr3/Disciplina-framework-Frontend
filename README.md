@@ -4,14 +4,14 @@
 
 | Projeto | Breve descrição | Acesso |
 | --- | --- | --- |
-| [Aula 1 · Relatório sobre Vue](Aula1/) | Relatório técnico sobre o framework Vue. | [Ver atividade](Aula1/) |
-| [Aula 2 · Super Calculadora Mario](Aula2/) | Calculadora temática desenvolvida com Next.js. | [Ver atividade](https://calculadora-mario.vercel.app/) |
-| [Aula 3 · Calculadora React](Aula3/) | Calculadora com operações básicas, porcentagem e inversão de sinal. | [Ver atividade](https://framework-frontend-aula3.vercel.app/) |
-| [Aula 4 · Projetos frontend com APIs](Aula4/) | Repositórios clonados para estudo de interfaces e integração com APIs. | [Ver atividade](Aula4/) |
-| [Aula 5 · Aplicativo de notas](Aula5/) | Interface React para cadastrar, consultar, editar e excluir notas por uma API Express. | [Ver atividade](https://expressfrontendaula5.vercel.app/) |
-| [Aula 7 · Atividade 1](Aula7/Atividade1/) | Atividade de interface com HTML e CSS. | [Ver atividade](https://aula7-atividade1.vercel.app/) |
-| [Aula 7 · Atividade 2](Aula7/Atividade2/) | Atividade de interface com Tailwind CSS. | [Ver atividade](https://aula7-atividade2.vercel.app/) |
-| [Aula 8 · Gerenciador de tarefas](Aula8/) | Aplicação para organizar tarefas construída com React e Vite. | [Ver atividade](https://react-gerenciador-tarefas-opal.vercel.app/) |
+| [Aula 1 · Relatório sobre Vue](Aula1/) | Relatório técnico sobre o framework Vue. | [Ir para o repositório](Aula1/) |
+| [Aula 2 · Super Calculadora Mario](Aula2/) | Calculadora temática desenvolvida com Next.js. | [Ir para o deploy](https://calculadora-mario.vercel.app/) |
+| [Aula 3 · Calculadora React](Aula3/) | Calculadora com operações básicas, porcentagem e inversão de sinal. | [Ir para o deploy](https://framework-frontend-aula3.vercel.app/) |
+| [Aula 4 · Projetos frontend com APIs](Aula4/) | Repositórios clonados para estudo de interfaces e integração com APIs. | [Ir para o repositório](Aula4/) |
+| [Aula 5 · Aplicativo de notas](Aula5/) | Interface React para cadastrar, consultar, editar e excluir notas por uma API Express. | [Ir para o deploy](https://expressfrontendaula5.vercel.app/) |
+| [Aula 7 · Atividade 1](Aula7/Atividade1/) | Atividade de interface com HTML e CSS. | [Ir para o deploy](https://aula7-atividade1.vercel.app/) |
+| [Aula 7 · Atividade 2](Aula7/Atividade2/) | Atividade de interface com Tailwind CSS. | [Ir para o deploy](https://aula7-atividade2.vercel.app/) |
+| [Aula 8 · Gerenciador de tarefas](Aula8/) | Aplicação para organizar tarefas construída com React e Vite. | [Ir para o deploy](https://react-gerenciador-tarefas-opal.vercel.app/) |
 
 A [Aula 1](Aula1/) contém um relatório sobre Vue, a [Aula 4](Aula4/) reúne repositórios clonados para estudo e a [Aula 6](Aula6/) contém material da disciplina em PDF.
 
