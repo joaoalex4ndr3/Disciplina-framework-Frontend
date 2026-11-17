@@ -7,14 +7,14 @@ You can still visit the hosted site [here](https://news-source.netlify.app/).
 
 ### The Homepage
 
-On the homepage, the user is welcomed by a beautiful cutout of my face :grin: 
+On the homepage, the user is welcomed by a beautiful cutout of my face
 The user is able to enter text in the input field and get back relevant articles related to their search.
 
 ![Sony playstation results](/screenshots/newssource-sony.PNG)
 
 ### Arabic News
 
-If the user wants to see top headlines from various Arabic sources like I sometimes do :sweat_smile:, then they can click on the Arabic News link.
+If the user wants to see top headlines from various Arabic sources like I sometimes do, then they can click on the Arabic News link.
 
 ![Arabic news results](/screenshots/newssource-ar.PNG)
 
