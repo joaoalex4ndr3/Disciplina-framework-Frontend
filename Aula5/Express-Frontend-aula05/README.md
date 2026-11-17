@@ -1,6 +1,6 @@
 # Aula 5 · Interface de notas
 
-Frontend React para listar, criar, editar e excluir notas. O aplicativo usa `fetch` para consultar a [API Express publicada no Render](https://express-crud-json.onrender.com/api/notes). O código da API está na [pasta do backend](../Express-backend-aula05/).
+Frontend React para listar, criar, editar e excluir notas. O aplicativo usa `fetch` para consultar a [API Express publicada no Render](https://express-backend-aula05-134x.onrender.com/api/notes). O código da API está na [pasta do backend](../Express-backend-aula05/).
 
 [Experimentar na Vercel](https://expressfrontendaula5.vercel.app/).
 
