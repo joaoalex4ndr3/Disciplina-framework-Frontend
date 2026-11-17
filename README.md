@@ -1,5 +1,19 @@
 # 💻 Disciplina Framework Frontend
 
+## Projetos na Vercel
+
+| Projeto | Breve descrição | Deploy na Vercel |
+| --- | --- | --- |
+| [Aula 2 · Super Calculadora Mario](Aula2/) | Calculadora temática desenvolvida com Next.js. | [Abrir calculadora](https://calculadora-mario.vercel.app/) |
+| [Aula 3 · Calculadora React](Aula3/) | Calculadora com operações básicas, porcentagem e inversão de sinal. | [Abrir calculadora](https://framework-frontend-aula3.vercel.app/) |
+| [Aula 5 · Aplicativo de notas](Aula5/) | Interface React para cadastrar, consultar, editar e excluir notas por uma API Express. | [Abrir aplicativo](https://expressfrontendaula5.vercel.app/) |
+| [Aula 7 · Atividade 1](Aula7/Atividade1/) | Atividade de interface com HTML e CSS. | [Abrir atividade](https://aula7-atividade1.vercel.app/) |
+| [Aula 7 · Atividade 2](Aula7/Atividade2/) | Atividade de interface com Tailwind CSS. | [Abrir atividade](https://aula7-atividade2.vercel.app/) |
+| [Aula 8 · Gerenciador de tarefas](Aula8/) | Aplicação para organizar tarefas construída com React e Vite. | [Abrir gerenciador](https://react-gerenciador-tarefas-opal.vercel.app/) |
+
+A [Aula 1](Aula1/) contém um relatório sobre Vue, a [Aula 4](Aula4/) reúne repositórios clonados para estudo e a [Aula 6](Aula6/) contém material da disciplina em PDF.
+
+
 Repositório destinado ao armazenamento, organização e documentação das atividades, exercícios, projetos e experimentos desenvolvidos durante a disciplina de **Framework Frontend** do curso de **Análise e Desenvolvimento de Sistemas (ADS)**.
 
 Este repositório acompanha minha evolução prática durante a disciplina, reunindo desde os primeiros exercícios e conceitos fundamentais até a utilização de frameworks, bibliotecas, consumo de APIs, desenvolvimento de aplicações e organização de projetos utilizando ferramentas e práticas presentes no desenvolvimento frontend moderno.
