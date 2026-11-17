@@ -3,7 +3,7 @@
 A pasta [`projetos`](projetos/) reúne repositórios clonados como referência para estudo de interfaces e integração com APIs.
 
 
-## 📚 Disciplina: Framework Frontend
+## Disciplina: Framework Frontend
 
 Nesta atividade foram pesquisados e analisados projetos Frontend disponíveis no GitHub que utilizam APIs para obter, consultar ou manipular informações.
 
@@ -11,7 +11,7 @@ Os projetos foram clonados e organizados neste repositório com o objetivo de an
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 O objetivo desta atividade é conhecer diferentes aplicações Frontend que utilizam APIs e identificar:
 
@@ -23,7 +23,7 @@ O objetivo desta atividade é conhecer diferentes aplicações Frontend que util
 
 ---
 
-## 📋 Projetos analisados
+## Projetos analisados
 
 | # | Projeto | O que faz | API utilizada | Tecnologias |
 |---|---|---|---|---|
@@ -40,29 +40,29 @@ O objetivo desta atividade é conhecer diferentes aplicações Frontend que util
 
 ---
 
-# 🔎 Detalhamento dos projetos
+# Detalhamento dos projetos
 
 ## 1. NASA API Front
 
-### 💡 Sobre o projeto
+### Sobre o projeto
 
 O NASA API Front é uma aplicação Frontend que utiliza dados disponibilizados pela NASA através de uma API.
 
 A aplicação demonstra como uma interface desenvolvida em React pode realizar requisições para uma API externa e apresentar os dados obtidos de maneira visual para o usuário.
 
-### 🔌 API
+### API
 
 **NASA API**
 
 A API disponibiliza informações e conteúdos relacionados aos projetos e dados da NASA.
 
-### 🛠️ Tecnologias
+### Tecnologias
 
 - React
 - JavaScript
 - Vite
 
-### 📌 Conceitos observados
+### Conceitos observados
 
 - Componentização com React;
 - Consumo de API;
@@ -73,23 +73,23 @@ A API disponibiliza informações e conteúdos relacionados aos projetos e dados
 
 ## 2. ALTER-EGO
 
-### 💡 Sobre o projeto
+### Sobre o projeto
 
 O ALTER-EGO é uma aplicação Frontend voltada para uma experiência interativa através de uma interface web.
 
 O projeto demonstra a utilização de componentes para criar uma aplicação dinâmica e interativa.
 
-### 🔌 API
+### API
 
 **API externa**
 
-### 🛠️ Tecnologias
+### Tecnologias
 
 - React
 - JavaScript
 - Vite
 
-### 📌 Conceitos observados
+### Conceitos observados
 
 - Componentização;
 - Desenvolvimento de interfaces;
@@ -100,26 +100,26 @@ O projeto demonstra a utilização de componentes para criar uma aplicação din
 
 ## 3. Virtual Assistant
 
-### 💡 Sobre o projeto
+### Sobre o projeto
 
 O Virtual Assistant é uma aplicação de assistente virtual que utiliza inteligência artificial para permitir que o usuário faça perguntas e receba respostas.
 
 O projeto demonstra como uma aplicação Frontend pode se comunicar com serviços de inteligência artificial através de uma API.
 
-### 🔌 API
+### API
 
 **Google Gemini API**
 
 A API é utilizada para enviar solicitações para o modelo de inteligência artificial e receber as respostas.
 
-### 🛠️ Tecnologias
+### Tecnologias
 
 - React
 - JavaScript
 - Vite
 - Google Gemini API
 
-### 📌 Conceitos observados
+### Conceitos observados
 
 - Consumo de API;
 - Inteligência artificial;
@@ -131,26 +131,26 @@ A API é utilizada para enviar solicitações para o modelo de inteligência art
 
 ## 4. Gamelisting
 
-### 💡 Sobre o projeto
+### Sobre o projeto
 
 O Gamelisting é uma aplicação voltada para consulta e descoberta de jogos.
 
 A aplicação utiliza dados de uma API externa para apresentar informações sobre diferentes jogos, permitindo que o usuário explore o catálogo disponível.
 
-### 🔌 API
+### API
 
 **RAWG Video Games Database API**
 
 A RAWG API fornece informações sobre jogos, incluindo títulos, gêneros, plataformas e imagens.
 
-### 🛠️ Tecnologias
+### Tecnologias
 
 - React
 - TypeScript
 - Vite
 - Framer Motion
 
-### 📌 Conceitos observados
+### Conceitos observados
 
 - Consumo de API;
 - TypeScript;
@@ -162,19 +162,19 @@ A RAWG API fornece informações sobre jogos, incluindo títulos, gêneros, plat
 
 ## 5. Game Hub
 
-### 💡 Sobre o projeto
+### Sobre o projeto
 
 O Game Hub é uma aplicação para descoberta de jogos.
 
 O usuário pode pesquisar e filtrar jogos e visualizar informações obtidas através da API.
 
-### 🔌 API
+### API
 
 **RAWG API**
 
 A API fornece informações relacionadas a jogos e permite que a aplicação apresente um catálogo atualizado.
 
-### 🛠️ Tecnologias
+### Tecnologias
 
 - React
 - TypeScript
@@ -182,7 +182,7 @@ A API fornece informações relacionadas a jogos e permite que a aplicação apr
 - Chakra UI
 - Axios
 
-### 📌 Conceitos observados
+### Conceitos observados
 
 - Consumo de APIs REST;
 - Requisições HTTP utilizando Axios;
@@ -195,24 +195,24 @@ A API fornece informações relacionadas a jogos e permite que a aplicação apr
 
 ## 6. News API React App
 
-### 💡 Sobre o projeto
+### Sobre o projeto
 
 O News API React App é uma aplicação que apresenta notícias utilizando informações obtidas através de uma API.
 
 O projeto demonstra como uma aplicação React pode consultar serviços externos e transformar os dados recebidos em conteúdo visual para o usuário.
 
-### 🔌 API
+### API
 
 **News API**
 
 A News API disponibiliza informações sobre notícias e diferentes fontes de conteúdo.
 
-### 🛠️ Tecnologias
+### Tecnologias
 
 - React
 - JavaScript
 
-### 📌 Conceitos observados
+### Conceitos observados
 
 - Consumo de API;
 - Requisições HTTP;
@@ -224,19 +224,19 @@ A News API disponibiliza informações sobre notícias e diferentes fontes de co
 
 ## 7. Anime API
 
-### 💡 Sobre o projeto
+### Sobre o projeto
 
 O Anime API é uma aplicação voltada para consulta de informações sobre animes.
 
 O usuário pode pesquisar e visualizar dados relacionados aos animes disponíveis através da API utilizada pelo projeto.
 
-### 🔌 API
+### API
 
 **Jikan API v4**
 
 A Jikan é uma API que fornece dados relacionados ao MyAnimeList, permitindo consultar informações sobre animes, personagens e outros conteúdos.
 
-### 🛠️ Tecnologias
+### Tecnologias
 
 - React
 - JavaScript
@@ -245,7 +245,7 @@ A Jikan é uma API que fornece dados relacionados ao MyAnimeList, permitindo con
 - React Router
 - React Icons
 
-### 📌 Conceitos observados
+### Conceitos observados
 
 - Consumo de API;
 - Roteamento;
@@ -257,26 +257,26 @@ A Jikan é uma API que fornece dados relacionados ao MyAnimeList, permitindo con
 
 ## 8. CEO Dog Code Challenge
 
-### 💡 Sobre o projeto
+### Sobre o projeto
 
 O CEO Dog Code Challenge é uma aplicação que permite consultar diferentes raças de cães e visualizar imagens relacionadas a elas.
 
 A aplicação utiliza uma API específica de cães para obter as informações apresentadas ao usuário.
 
-### 🔌 API
+### API
 
 **Dog CEO API**
 
 A API fornece informações sobre raças de cães e imagens correspondentes.
 
-### 🛠️ Tecnologias
+### Tecnologias
 
 - React
 - TypeScript
 - Redux Toolkit
 - RTK Query
 
-### 📌 Conceitos observados
+### Conceitos observados
 
 - Consumo de API;
 - TypeScript;
@@ -289,26 +289,26 @@ A API fornece informações sobre raças de cães e imagens correspondentes.
 
 ## 9. Rest Countries React
 
-### 💡 Sobre o projeto
+### Sobre o projeto
 
 O Rest Countries React é uma aplicação que apresenta informações sobre países.
 
 O usuário pode pesquisar países, filtrar resultados por região e acessar informações mais detalhadas sobre cada país.
 
-### 🔌 API
+### API
 
 **REST Countries API**
 
 A API disponibiliza informações sobre países, como nome, região, população, capital e bandeira.
 
-### 🛠️ Tecnologias
+### Tecnologias
 
 - React
 - JavaScript
 - React Router
 - Styled Components
 
-### 📌 Conceitos observados
+### Conceitos observados
 
 - Consumo de API;
 - Pesquisa;
@@ -321,26 +321,26 @@ A API disponibiliza informações sobre países, como nome, região, população
 
 ## 10. Store App Frontend
 
-### 💡 Sobre o projeto
+### Sobre o projeto
 
 O Store App Frontend é uma aplicação que simula uma loja virtual.
 
 O projeto apresenta produtos obtidos através de uma API e possui funcionalidades relacionadas a um carrinho de compras.
 
-### 🔌 API
+### API
 
 **API de produtos**
 
 A aplicação utiliza uma API para obter os produtos que são apresentados na interface.
 
-### 🛠️ Tecnologias
+### Tecnologias
 
 - React
 - JavaScript
 - Vite
 - Material UI
 
-### 📌 Conceitos observados
+### Conceitos observados
 
 - Consumo de API;
 - Componentização;
@@ -350,7 +350,7 @@ A aplicação utiliza uma API para obter os produtos que são apresentados na in
 
 ---
 
-# 📊 Comparação das tecnologias
+# Comparação das tecnologias
 
 Durante a análise dos projetos, foi possível observar a utilização de diferentes tecnologias e ferramentas no desenvolvimento Frontend.
 
@@ -372,7 +372,7 @@ Durante a análise dos projetos, foi possível observar a utilização de difere
 
 ---
 
-# 📌 Conclusão
+# Conclusão
 
 A análise dos projetos permitiu observar diferentes formas de utilização de APIs em aplicações Frontend.
 
@@ -384,7 +384,7 @@ O uso de APIs permite que aplicações Frontend trabalhem com informações exte
 
 ---
 
-## 📚 Repositórios utilizados
+## Repositórios utilizados
 
 1. [NASA API Front](./projetos/nasa-api-front)
 2. [ALTER-EGO](./projetos/ALTER-EGO)
