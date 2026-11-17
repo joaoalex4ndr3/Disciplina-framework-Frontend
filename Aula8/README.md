@@ -4,7 +4,7 @@
 
 Aplicação web desenvolvida como atividade acadêmica da aula de Frameworks Front-end do SENAI. O projeto permite cadastrar, visualizar, concluir, filtrar e excluir tarefas.
 
-## 🌐 Aplicação Online
+## Aplicação Online
 
 O projeto está disponível online através da Vercel:
 
