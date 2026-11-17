@@ -1,4 +1,4 @@
-# 🍙 AniManga - Anime + Manga Discovery Platform
+# AniManga - Anime + Manga Discovery Platform
 
 <img width="1919" height="1053" alt="image" src="https://github.com/user-attachments/assets/af9c488d-ec3b-4655-9c09-f4468824b785" />
 
@@ -6,46 +6,46 @@
 
 ---
 
-## 🔗 **Live Demo**
-### 🚀 **[Click here to view the Live Site](https://https-github-com-xicoldes-anime-api.onrender.com/)**
+## **Live Demo**
+### **[Click here to view the Live Site](https://https-github-com-xicoldes-anime-api.onrender.com/)**
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### **1. 🏠 Immersive Home Experience**
+### **1. Immersive Home Experience**
 * **Cinematic Spotlight:** An auto-sliding hero section with high-quality visuals, English titles, and a clean interface (no dark overlays).
     * *Mobile Optimized:* Features a vertical gradient for readability and touch-friendly navigation.
 * **True Trending Sidebar:** Displays the **Top 11-20** currently airing shows to complement the spotlight without duplicates.
 * **Smart Filtering:** Sort content by **Genre**, **Popularity**, or **Score**.
 * **Latest Episodes:** Real-time updates for currently airing series with a dedicated "View All" page.
 
-### **2. 📚 Comprehensive Manga & Anime Database**
+### **2. Comprehensive Manga & Anime Database**
 * **Extensive Library:** Browse thousands of manga titles and anime series with advanced deduplication.
 * **Dedicated Listing Pages:** Separate, filterable pages for **Anime** (`/anime`), **Movies** (`/movies`), and **Manga** (`/manga`).
 * **Robust Filtering:** Filter content by **Genre** directly on listing pages with smart caching to reduce API load.
 * **Read Now Integration:** Smart buttons that dynamically link to reading sources based on the title.
 
-### **3. 🔍 Smart Search & Discovery**
+### **3. Smart Search & Discovery**
 * **Universal Search Bar:** A powerful navbar search with a dropdown selector for **All**, **Series**, **Movies**, and **Manga**.
 * **Live Results:** Instant dropdown feedback as you type with genre and type indicators.
 * **Deep Linking:** Shareable search URLs (e.g., `/search?q=jujutsu&type=manga`).
 * **Ban Filter System:** Integrated blacklist functionality to hide specific content IDs from search results and listing pages.
 
-### **4. 📄 Rich Detail Pages**
+### **4. Rich Detail Pages**
 * **Wiki Layout:** A classic 3-column design displaying metadata (Score, Rank, Popularity), synopsis, and background info.
 * **Trailer Integration:** Watch official trailers directly on the page.
 * **Character Grid:** Visual cast lists with roles (Main/Supporting).
 * **Smart Links:** Context-aware genre tags that link to the correct category page (e.g., clicking "Action" on a movie page takes you to Action Movies).
 
-### **5. ❤️ User Collections (Watchlist)**
+### **5. User Collections (Watchlist)**
 * **Horizontal Scroll UI:** A Netflix-style horizontal list for your saved Anime and Manga.
 * **Jump Controls:** New `<<` and `>>` buttons to instantly jump to the start or end of your collection.
 * **Local Storage Auth:** Persistent bookmarking system that remembers your list without requiring a backend.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Frontend:** React.js (Vite)
 * **Styling:** Tailwind CSS
@@ -57,7 +57,7 @@
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository**
 ```bash
@@ -79,7 +79,7 @@ npm run dev
 The app will launch at http://localhost:5173.
 
 
-## 📂 Project Structure
+## Project Structure
 ```bash
 ANIME-API/
 ├── client/                   # Frontend React Application
@@ -127,7 +127,7 @@ ANIME-API/
 ```
 
 
-## 🚀 Deployment (Render)
+## Deployment (Render)
 This project is optimized for deployment on Render.
 
 1. New Static Site: Connect your GitHub repo.
@@ -141,7 +141,7 @@ This project is optimized for deployment on Render.
 Note: If you encounter a "Route not found" error on refresh, you may need to add a rewrite rule in Render settings (Source: /* -> Destination: /index.html).
 
 
-## ⚠️ Disclaimer
+## Disclaimer
 This project uses the free Jikan API.
 
 Rate Limits: You may experience a 429 error ("API is busy") if you refresh too rapidly. This is a limitation of the free API tier.
@@ -151,5 +151,5 @@ Data: All data is provided by MyAnimeList via Jikan.
 Content filtering: A client-side blacklist is implemented in src/utils/banned.js to filter specific content IDs.
 
 
-## 📝 License
+## License
 This project is for educational purposes.
