@@ -1,4 +1,4 @@
-# 🚀 AlterEgo — AI Persona Chat App
+# AlterEgo — AI Persona Chat App
 
 <p align="center">
   <b>Create, customize, and chat with AI personalities in real-time</b>
@@ -13,19 +13,19 @@
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
-🔗 https://your-live-demo-link.vercel.app
+https://your-live-demo-link.vercel.app
 
 ---
 
-## 📸 Preview
+## Preview
 
 ![App Screenshot](./preview.png)
 
 ---
 
-## 🧠 About The Project
+## About The Project
 
 **AlterEgo** is an AI-powered web application that enables users to create and interact with different AI personas.
 
@@ -33,18 +33,18 @@ Unlike generic chatbots, AlterEgo focuses on **personality-driven conversations*
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-* 🤖 AI Persona-based Chat System
-* 🎭 Custom Personality Configuration
-* ⚡ Real-time Response Handling
-* 🔌 OpenRouter LLM Integration
-* 📱 Fully Responsive UI
-* 💾 Local Storage-based session persistence
+* AI Persona-based Chat System
+* Custom Personality Configuration
+* Real-time Response Handling
+* OpenRouter LLM Integration
+* Fully Responsive UI
+* Local Storage-based session persistence
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ```
 Frontend (React + Vite)
@@ -56,25 +56,25 @@ OpenRouter API
 LLM Response
 ```
 
-⚠️ Current Design:
+Current Design:
 
 * Direct API calls from frontend
 * No backend layer
 
-🚨 Limitation:
+Limitation:
 
 * API keys are exposed in the browser
 
 ---
 
-## 🔐 Security Consideration
+## Security Consideration
 
 This project is currently **frontend-only**, which means:
 
 * API key is stored in localStorage
 * Not suitable for production-level deployment
 
-### ✅ Recommended Fix
+### Recommended Fix
 
 ```
 Frontend → Backend → OpenRouter API
@@ -82,13 +82,13 @@ Frontend → Backend → OpenRouter API
 
 This ensures:
 
-* 🔒 API key protection
-* 🛡️ Rate limiting
-* 📊 Better control
+* API key protection
+* Rate limiting
+* Better control
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category   | Technology       |
 | ---------- | ---------------- |
@@ -99,7 +99,7 @@ This ensures:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ALTER-EGO/
@@ -115,7 +115,7 @@ ALTER-EGO/
 
 ---
 
-## ⚙️ Environment Variables
+## Environment Variables
 
 Create a `.env` file in root:
 
@@ -128,7 +128,7 @@ VITE_OPENROUTER_APP_URL=https://your-domain.vercel.app
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ```
 git clone https://github.com/your-username/alterego.git
@@ -139,7 +139,7 @@ npm run dev
 
 ---
 
-## 🚀 Build & Production
+## Build & Production
 
 ```
 npm run build
@@ -148,19 +148,19 @@ npm run preview
 
 ---
 
-## 🌍 Deployment Guide
+## Deployment Guide
 
-### 🔹 Vercel
+### Vercel
 
 1. Import repo to Vercel
 2. Build Command → `npm run build`
 3. Output Directory → `dist`
 4. Add environment variables
-5. Deploy 🚀
+5. Deploy
 
 ---
 
-### 🔹 Railway
+### Railway
 
 1. Create project from GitHub
 2. Build → `npm run build`
@@ -170,17 +170,17 @@ npm run preview
 
 ---
 
-## 📈 Future Enhancements
+## Future Enhancements
 
-* 🔐 Backend proxy for API security
-* 🧠 Memory-based conversations
-* 🎤 Voice interaction
-* 📊 Analytics dashboard
-* 🧩 Plugin system
+* Backend proxy for API security
+* Memory-based conversations
+* Voice interaction
+* Analytics dashboard
+* Plugin system
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 ```
 # Fork the repo
@@ -191,7 +191,7 @@ git push origin feature/your-feature
 
 ---
 
-## 🐛 Known Issues
+## Known Issues
 
 * API key exposure in frontend
 * No rate limiting
@@ -199,31 +199,31 @@ git push origin feature/your-feature
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Tushar Singh**
-🚀 Full-Stack MERN Developer
-💡 Passionate about AI + Scalable Systems
+Full-Stack MERN Developer
+Passionate about AI + Scalable Systems
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-## ⭐ Support
+## Support
 
 If you like this project:
 
-👉 Star this repo
-👉 Share with others
-👉 Contribute
+Star this repo
+Share with others
+Contribute
 
 ---
 
-## 💀 Final Note
+## Final Note
 
 > “Good developers write code. Great developers build systems.”
 # ALTER-EGO
