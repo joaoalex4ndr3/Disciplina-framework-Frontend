@@ -1,4 +1,4 @@
-[API publicada no Render](https://express-crud-json.onrender.com/api/notes) · [Interface na Vercel](https://expressfrontendaula5.vercel.app/)
+[API publicada no Render](https://express-backend-aula05-134x.onrender.com/api/notes) · [Interface na Vercel](https://expressfrontendaula5.vercel.app/)
 
 # API CRUD de Notas com Node.js + Express
 
@@ -103,7 +103,7 @@ Exemplo:
       next();
     });
 
-Libera acesso da API para aplicações frontend.
+Libera o acesso para a interface publicada e para o ambiente local. O middleware também responde ao preflight OPTIONS.
 
 ---
 
