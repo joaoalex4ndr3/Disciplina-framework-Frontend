@@ -1,5 +1,8 @@
 # Aula 4 — Projetos Frontend com APIs
 
+A pasta [`projetos`](projetos/) reúne repositórios clonados como referência para estudo de interfaces e integração com APIs.
+
+
 ## 📚 Disciplina: Framework Frontend
 
 Nesta atividade foram pesquisados e analisados projetos Frontend disponíveis no GitHub que utilizam APIs para obter, consultar ou manipular informações.
