@@ -1,49 +1,9 @@
-Sobre o Projeto
+# Aula 5 · Interface de notas
 
-Este projeto é um frontend desenvolvido em React, criado para consumir os dados fornecidos pela API hospedada no Render. Ele funciona como um aplicativo de notas, permitindo criar, visualizar, atualizar e excluir informações.
+Frontend React para listar, criar, editar e excluir notas. O aplicativo usa `fetch` para consultar a [API Express publicada no Render](https://express-crud-json.onrender.com/api/notes). O código da API está na [pasta do backend](../Express-backend-aula05/).
 
-Tecnologias Utilizadas
+[Experimentar na Vercel](https://expressfrontendaula5.vercel.app/).
 
-React
+## Executar localmente
 
-Fetch API / Axios (dependendo da implementação)
-
-Vercel (Deploy)
-
-Funcionalidades
-
-Exibe as notas retornadas pela API
-
-Permite adicionar novas notas
-
-Permite editar notas existentes
-
-Permite excluir notas
-
-Interface simples e intuitiva
-
-Integração com o Backend
-
-O app consome os dados diretamente da API do projeto backend, fazendo as chamadas CRUD para:
-
-Obter lista de notas
-
-Criar uma nova nota
-
-Atualizar uma nota
-
-Excluir uma nota
-
-Como Executar Localmente
-
-Clone o repositório
-
-Instale as dependências:
-
-npm install
-
-Execute o app:
-
-npm run dev
-
-Acesse em http://localhost:5173 (ou porta especificada)
+Na pasta `Aula5/Express-Frontend-aula05`, execute `npm ci` e `npm start`. Acesse `http://localhost:3000`. A interface consulta a API do Render pelo endereço configurado em `src/App.js`.
