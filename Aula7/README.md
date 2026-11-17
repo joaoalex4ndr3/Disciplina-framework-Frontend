@@ -1,6 +1,6 @@
 # Aula 7 — Frameworks CSS
 
-## 📚 Sobre a aula
+## Sobre a aula
 
 A Aula 7 foi dedicada ao estudo e à aplicação de conceitos relacionados à estilização de páginas web utilizando CSS e frameworks CSS.
 
@@ -10,7 +10,7 @@ Durante as atividades, foram trabalhados conceitos fundamentais do CSS, como o *
 
 A aula também proporcionou a prática de organização de projetos, documentação com Markdown, versionamento de código com Git e GitHub e publicação de páginas web por meio da Vercel.
 
-## 🎯 Objetivos de aprendizagem
+## Objetivos de aprendizagem
 
 - Compreender a importância do CSS na construção de interfaces web.
 - Aplicar estilos utilizando CSS externo.
@@ -22,7 +22,7 @@ A aula também proporcionou a prática de organização de projetos, documentaç
 - Versionar e compartilhar projetos por meio do GitHub.
 - Publicar aplicações web utilizando a Vercel.
 
-## 🛠️ Tecnologias e ferramentas utilizadas
+## Tecnologias e ferramentas utilizadas
 
 | Tecnologia ou ferramenta | Utilização |
 |---|---|
@@ -38,9 +38,9 @@ A aula também proporcionou a prática de organização de projetos, documentaç
 
 ---
 
-## 📝 Atividade 1 — HTML e CSS
+## Atividade 1 — HTML e CSS
 
-### 📌 Descrição
+### Descrição
 
 A primeira atividade teve como foco a aplicação prática de HTML e CSS para desenvolver e estilizar uma página web.
 
@@ -48,7 +48,7 @@ O exercício trabalhou a organização dos elementos HTML, a utilização de um 
 
 Entre os conteúdos abordados estão o Box Model, responsável por definir como as dimensões e os espaçamentos dos elementos são organizados, e o Flexbox, utilizado para alinhar e distribuir elementos de maneira flexível.
 
-### 🎯 Objetivos da atividade
+### Objetivos da atividade
 
 - Desenvolver uma página utilizando HTML.
 - Utilizar um arquivo CSS externo para estilização.
@@ -57,21 +57,21 @@ Entre os conteúdos abordados estão o Box Model, responsável por definir como 
 - Explorar propriedades do Flexbox para organizar os elementos.
 - Praticar a construção de layouts organizados e responsivos.
 
-### 📖 Principais conceitos
+### Principais conceitos
 
 **Box Model:** modelo que representa a estrutura de cada elemento, considerando conteúdo, espaçamento interno (*padding*), borda (*border*) e margem externa (*margin*).
 
 **Flexbox:** modelo de layout CSS que facilita o alinhamento, o posicionamento e a distribuição dos elementos dentro de um contêiner.
 
-### 🌐 Projeto publicado
+### Projeto publicado
 
 **[Acessar a Atividade 1 — HTML e CSS](https://aula7-atividade1.vercel.app)**
 
 ---
 
-## 📝 Atividade 2 — Tailwind CSS
+## Atividade 2 — Tailwind CSS
 
-### 📌 Descrição
+### Descrição
 
 A segunda atividade teve como foco a utilização do Tailwind CSS, um framework CSS que disponibiliza classes utilitárias para aplicar estilos diretamente aos elementos HTML.
 
@@ -79,7 +79,7 @@ Com essa abordagem, é possível definir características visuais, como cores, e
 
 A atividade permitiu explorar uma forma alternativa de estilização de interfaces, utilizando recursos do framework para organizar e personalizar os elementos de uma página web.
 
-### 🎯 Objetivos da atividade
+### Objetivos da atividade
 
 - Conhecer e aplicar o Tailwind CSS.
 - Utilizar pelo menos 30 classes diferentes do framework, conforme a proposta da atividade.
@@ -90,19 +90,19 @@ A atividade permitiu explorar uma forma alternativa de estilização de interfac
 - Registrar capturas de tela da aplicação na documentação.
 - Publicar o projeto para acesso pela internet.
 
-### 📖 Principais conceitos
+### Principais conceitos
 
 **Classes utilitárias:** classes que representam propriedades específicas de estilo e podem ser combinadas para construir a aparência dos elementos.
 
 **Estilização com Tailwind CSS:** abordagem que permite aplicar estilos diretamente no HTML, utilizando as classes disponibilizadas pelo framework.
 
-### 🌐 Projeto publicado
+### Projeto publicado
 
 **[Acessar a Atividade 2 — Tailwind CSS](https://aula7-atividade2.vercel.app)**
 
 ---
 
-## 📂 Estrutura dos projetos
+## Estrutura dos projetos
 
 A organização da Aula 7 no repositório segue esta estrutura:
 
@@ -133,7 +133,7 @@ Aula7/
 
 ---
 
-## 🚀 Publicação dos projetos
+## Publicação dos projetos
 
 As duas atividades foram publicadas na Vercel, permitindo acessar suas páginas por meio de links públicos.
 
@@ -144,7 +144,7 @@ As duas atividades foram publicadas na Vercel, permitindo acessar suas páginas 
 
 ---
 
-## 📌 Considerações finais
+## Considerações finais
 
 A Aula 7 permitiu colocar em prática conceitos importantes para o desenvolvimento frontend, desde a estruturação de páginas com HTML e a estilização com CSS até a utilização de um framework CSS baseado em classes utilitárias.
 
@@ -152,7 +152,7 @@ A primeira atividade possibilitou trabalhar conceitos fundamentais do CSS, espec
 
 Além do desenvolvimento das páginas, a organização dos arquivos, a documentação dos projetos, o versionamento com Git e GitHub e a publicação na Vercel contribuíram para praticar etapas importantes do fluxo de desenvolvimento web.
 
-## 👨‍💻 Autor
+## Autor
 
 **João Alexandre**
 
