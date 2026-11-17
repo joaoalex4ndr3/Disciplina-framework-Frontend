@@ -1,4 +1,4 @@
-# 💻 Disciplina Framework Frontend
+# Disciplina Framework Frontend
 
 ## Projetos na Vercel
 
@@ -20,18 +20,18 @@ Este repositório acompanha minha evolução prática durante a disciplina, reun
 
 ---
 
-## 👨‍💻 Sobre o aluno
+## Sobre o aluno
 
 **João Alexandre da Silva Pereira**
 
-🎓 Curso: **Análise e Desenvolvimento de Sistemas (ADS)**
-🏫 Instituição: **SENAI Santa Rosália – Sorocaba/SP**
-📚 Disciplina: **Framework Frontend**
-💻 Área de interesse: **Desenvolvimento de Software / Frontend**
+Curso: **Análise e Desenvolvimento de Sistemas (ADS)**
+Instituição: **SENAI Santa Rosália – Sorocaba/SP**
+Disciplina: **Framework Frontend**
+Área de interesse: **Desenvolvimento de Software / Frontend**
 
 ---
 
-# 🎯 Objetivo do repositório
+# Objetivo do repositório
 
 O principal objetivo deste repositório é centralizar todo o conteúdo prático desenvolvido ao longo da disciplina, permitindo acompanhar minha evolução no aprendizado de tecnologias, ferramentas, frameworks e conceitos relacionados ao desenvolvimento de aplicações frontend.
 
@@ -39,22 +39,22 @@ Além de servir como espaço para entrega e organização das atividades acadêm
 
 Entre os principais objetivos estão:
 
-* 📚 Consolidar os conhecimentos adquiridos durante a disciplina;
-* 💻 Praticar desenvolvimento frontend;
-* 🧩 Compreender a utilização de frameworks modernos;
-* ⚛️ Desenvolver aplicações utilizando React;
-* 🔷 Trabalhar com TypeScript;
-* 🌐 Consumir e integrar APIs;
-* 🛠️ Aprender a estruturar projetos de software;
-* 📦 Trabalhar com gerenciamento de dependências;
-* 🔀 Utilizar Git e GitHub para versionamento;
-* 🧠 Desenvolver raciocínio lógico aplicado ao desenvolvimento;
-* 🚀 Criar projetos cada vez mais completos e organizados;
-* 📈 Registrar minha evolução ao longo da disciplina.
+* Consolidar os conhecimentos adquiridos durante a disciplina;
+* Praticar desenvolvimento frontend;
+* Compreender a utilização de frameworks modernos;
+* Desenvolver aplicações utilizando React;
+* Trabalhar com TypeScript;
+* Consumir e integrar APIs;
+* Aprender a estruturar projetos de software;
+* Trabalhar com gerenciamento de dependências;
+* Utilizar Git e GitHub para versionamento;
+* Desenvolver raciocínio lógico aplicado ao desenvolvimento;
+* Criar projetos cada vez mais completos e organizados;
+* Registrar minha evolução ao longo da disciplina.
 
 ---
 
-# 📚 Conteúdo da disciplina
+# Conteúdo da disciplina
 
 O repositório está dividido de acordo com as aulas e atividades desenvolvidas durante o semestre.
 
@@ -80,9 +80,9 @@ A estrutura poderá ser modificada ao longo do semestre conforme novos conteúdo
 
 ---
 
-# 🗂️ Organização das aulas
+# Organização das aulas
 
-## 📖 Aula 1
+## Aula 1
 
 A pasta `Aula1` contém as primeiras atividades desenvolvidas na disciplina.
 
@@ -99,7 +99,7 @@ Nesta etapa, o objetivo é compreender os conceitos iniciais apresentados em aul
 
 ---
 
-## 📖 Aula 2
+## Aula 2
 
 A pasta `Aula2` reúne as atividades desenvolvidas na segunda etapa da disciplina.
 
@@ -117,7 +117,7 @@ Nesta etapa são aprofundados conceitos relacionados ao desenvolvimento de aplic
 
 ---
 
-## 📖 Aula 3
+## Aula 3
 
 A pasta `Aula3` contém as atividades realizadas durante a terceira etapa da disciplina.
 
@@ -135,7 +135,7 @@ O objetivo desta etapa é avançar na construção de aplicações frontend, col
 
 ---
 
-## 📖 Aula 4
+## Aula 4
 
 A pasta `Aula4` representa uma etapa mais prática do desenvolvimento e contém projetos utilizados para estudo e experimentação.
 
@@ -157,7 +157,7 @@ Esses projetos são utilizados principalmente como material de estudo e prática
 
 ---
 
-# 🧩 Projetos desenvolvidos
+# Projetos desenvolvidos
 
 Ao longo da disciplina, diferentes projetos e exercícios são adicionados ao repositório.
 
@@ -167,24 +167,24 @@ A intenção é que cada atividade represente uma etapa da evolução do conheci
 
 | Projeto                   | Descrição                                                              | Tecnologias        |
 | ------------------------- | ---------------------------------------------------------------------- | ------------------ |
-| 🎮 Game Hub               | Aplicação frontend voltada para apresentação de jogos                  | React / TypeScript |
-| 📰 News API               | Aplicação para consumo e apresentação de notícias                      | React / API        |
-| 🎌 Anime API              | Aplicação utilizando dados de animes através de uma API                | React / API        |
-| 🌎 Rest Countries         | Aplicação para consulta de países                                      | React / API        |
-| 🐶 CEO Dog Code Challenge | Projeto utilizado para prática de desenvolvimento frontend             | React              |
-| 🤖 Virtual Assistant      | Projeto experimental relacionado a assistente virtual                  | Frontend           |
-| 💻 MiniCode-Copilot       | Projeto experimental envolvendo desenvolvimento e ferramentas modernas | Frontend           |
-| 🎮 Gamelisting            | Aplicação relacionada à listagem de jogos                              | React              |
+| Game Hub               | Aplicação frontend voltada para apresentação de jogos                  | React / TypeScript |
+| News API               | Aplicação para consumo e apresentação de notícias                      | React / API        |
+| Anime API              | Aplicação utilizando dados de animes através de uma API                | React / API        |
+| Rest Countries         | Aplicação para consulta de países                                      | React / API        |
+| CEO Dog Code Challenge | Projeto utilizado para prática de desenvolvimento frontend             | React              |
+| Virtual Assistant      | Projeto experimental relacionado a assistente virtual                  | Frontend           |
+| MiniCode-Copilot       | Projeto experimental envolvendo desenvolvimento e ferramentas modernas | Frontend           |
+| Gamelisting            | Aplicação relacionada à listagem de jogos                              | React              |
 
 > A lista será atualizada conforme novos projetos forem desenvolvidos durante a disciplina.
 
 ---
 
-# 🛠️ Tecnologias e ferramentas
+# Tecnologias e ferramentas
 
 Durante o desenvolvimento das atividades são utilizadas diversas tecnologias e ferramentas presentes no ecossistema frontend.
 
-## 💻 Linguagens
+## Linguagens
 
 ### JavaScript
 
@@ -196,7 +196,7 @@ Utilizado para adicionar tipagem estática ao JavaScript, proporcionando maior s
 
 ---
 
-## ⚛️ Frameworks e bibliotecas
+## Frameworks e bibliotecas
 
 ### React
 
@@ -216,7 +216,7 @@ Framework CSS utilizado para construção e estilização de interfaces através
 
 ---
 
-## 🔧 Ferramentas
+## Ferramentas
 
 ### Git
 
@@ -240,7 +240,7 @@ Gerenciador de pacotes utilizado para instalar dependências e executar scripts 
 
 ---
 
-# 🌐 Consumo de APIs
+# Consumo de APIs
 
 Um dos conceitos importantes trabalhados durante o desenvolvimento frontend é a integração com APIs.
 
@@ -285,7 +285,7 @@ Durante os estudos são utilizados conceitos como:
 
 ---
 
-# 🔀 Git e GitHub
+# Git e GitHub
 
 O Git é utilizado durante a disciplina para acompanhar a evolução dos projetos.
 
@@ -320,7 +320,7 @@ O uso do Git permite manter um histórico das alterações realizadas durante o 
 
 ---
 
-# 📦 Instalação e configuração
+# Instalação e configuração
 
 Para executar os projetos deste repositório, é necessário possuir um ambiente de desenvolvimento configurado.
 
@@ -336,7 +336,7 @@ Recomenda-se possuir instalado:
 
 ---
 
-# 🚀 Clonando o repositório
+# Clonando o repositório
 
 Para obter uma cópia do projeto localmente:
 
@@ -352,7 +352,7 @@ cd Disciplina-framework-Frontend
 
 ---
 
-# ▶️ Executando um projeto
+# Executando um projeto
 
 Como o repositório contém diferentes atividades e projetos, cada pasta pode possuir sua própria configuração.
 
@@ -400,7 +400,7 @@ http://localhost:3000
 
 ---
 
-# 📁 Estrutura geral
+# Estrutura geral
 
 A estrutura principal do repositório segue a organização das aulas:
 
@@ -437,7 +437,7 @@ A estrutura poderá evoluir conforme novas aulas e projetos forem adicionados.
 
 ---
 
-# 📈 Evolução durante a disciplina
+# Evolução durante a disciplina
 
 Este repositório também possui como finalidade registrar minha evolução como desenvolvedor.
 
@@ -478,7 +478,7 @@ O objetivo é transformar conhecimentos teóricos em experiências práticas de 
 
 ---
 
-# 🧠 Principais conhecimentos desenvolvidos
+# Principais conhecimentos desenvolvidos
 
 Durante o desenvolvimento das atividades, alguns dos principais conhecimentos trabalhados são:
 
@@ -538,7 +538,7 @@ Durante o desenvolvimento das atividades, alguns dos principais conhecimentos tr
 
 ---
 
-# 🐛 Problemas e aprendizados
+# Problemas e aprendizados
 
 Durante o desenvolvimento dos projetos, erros e dificuldades fazem parte do processo de aprendizagem.
 
@@ -561,7 +561,7 @@ A resolução desses problemas faz parte importante do processo de formação, p
 
 ---
 
-# 🤖 Uso de Inteligência Artificial
+# Uso de Inteligência Artificial
 
 Ferramentas de Inteligência Artificial podem ser utilizadas como apoio durante o processo de aprendizagem e desenvolvimento.
 
@@ -579,9 +579,9 @@ Entretanto, o objetivo principal continua sendo compreender o funcionamento do c
 
 ---
 
-# 📋 Status do projeto
+# Status do projeto
 
-🚧 **Em desenvolvimento**
+**Em desenvolvimento**
 
 Este repositório continuará sendo atualizado durante a disciplina conforme novas aulas, exercícios, projetos e conteúdos forem desenvolvidos.
 
@@ -596,7 +596,7 @@ Aula 4  ████████████████████  Em desenvo
 
 ---
 
-# 🗺️ Roadmap de aprendizado
+# Roadmap de aprendizado
 
 O objetivo é continuar expandindo o repositório com novos conteúdos e projetos.
 
@@ -638,7 +638,7 @@ O objetivo é continuar expandindo o repositório com novos conteúdos e projeto
 
 ---
 
-# 📊 Histórico de desenvolvimento
+# Histórico de desenvolvimento
 
 Este repositório utiliza Git para registrar a evolução do desenvolvimento.
 
@@ -648,7 +648,7 @@ O histórico de commits também funciona como um registro da evolução prática
 
 ---
 
-# 🎓 Contexto acadêmico
+# Contexto acadêmico
 
 Este projeto foi desenvolvido como parte das atividades acadêmicas do curso de **Análise e Desenvolvimento de Sistemas**, dentro da disciplina de **Framework Frontend**.
 
@@ -656,7 +656,7 @@ O repositório possui finalidade educacional e concentra códigos desenvolvidos 
 
 ---
 
-# 📚 Referências
+# Referências
 
 Durante os estudos, são utilizadas diferentes fontes de conhecimento, incluindo:
 
@@ -670,7 +670,7 @@ Durante os estudos, são utilizadas diferentes fontes de conhecimento, incluindo
 
 ---
 
-# 🔗 Links
+# Links
 
 ### Repositório
 
@@ -691,7 +691,7 @@ https://github.com/joaoalex4ndr3/Disciplina-framework-Frontend
 
 ---
 
-# 👨‍💻 Autor
+# Autor
 
 **João Alexandre da Silva Pereira**
 
@@ -699,7 +699,7 @@ Estudante de **Análise e Desenvolvimento de Sistemas**, com foco no aprendizado
 
 ---
 
-# 📄 Licença
+# Licença
 
 Este repositório possui finalidade **acadêmica e educacional**.
 
@@ -711,10 +711,10 @@ Projetos externos, bibliotecas, frameworks e materiais de terceiros permanecem s
 
 <div align="center">
 
-### 💻 Desenvolvido por João Alexandre
+### Desenvolvido por João Alexandre
 
 **Disciplina — Framework Frontend**
 
-📚 Estudando • 💻 Desenvolvendo • 🚀 Evoluindo
+Estudando • Desenvolvendo • Evoluindo
 
 </div>
