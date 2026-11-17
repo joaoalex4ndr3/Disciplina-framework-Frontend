@@ -1,5 +1,8 @@
 # Aula 06 — Projetos Front-End
 
+[Consultar o PDF da aula](Aula%2006%20-%20Projetos%20Front-End.pdf).
+
+
 ## Introdução
 
 A Aula 06 da disciplina de **Frameworks Front-end** teve como tema principal a gestão de projetos Front-End.
