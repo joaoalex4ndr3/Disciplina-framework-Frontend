@@ -1,20 +1,21 @@
 // Importa o Express, Body-Parser e FS
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const fs = require('fs');
 
 const app = express();
 const PORT = 3000;
 const FILE = 'data.json';
 
-// Permite receber JSON
-app.use(bodyParser.json());
+// Permite o frontend publicado e o ambiente local, incluindo o preflight OPTIONS.
+app.use(cors({
+  origin: ['https://expressfrontendaula5.vercel.app', 'http://localhost:3000', 'http://127.0.0.1:3000'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type']
+}));
 
-// Libera acesso externo (CORS)
-app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*');
-  next();
-});
+app.use(bodyParser.json());
 
 // Função para ler arquivo
 function readNotes() {
@@ -48,7 +49,8 @@ app.post('/api/notes', (req, res) => {
   const novaNota = {
     id: Date.now().toString(),
     titulo: req.body.titulo,
-    texto: req.body.texto
+    texto: req.body.texto,
+    criadoEm: new Date().toISOString()
   };
 
   notes.push(novaNota);
