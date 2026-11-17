@@ -3,16 +3,16 @@
 ## Atividades e projetos
 
 | Projeto | Breve descrição | Acesso |
-| --- | --- | --- |
-| [Aula 1 · Relatório sobre Vue](Aula1/) | Relatório técnico sobre o framework Vue. | [Ir para o repositório](Aula1/) |
-| [Aula 2 · Super Calculadora Mario](Aula2/) | Calculadora temática desenvolvida com Next.js. | [Ir para o deploy](https://calculadora-mario.vercel.app/) |
-| [Aula 3 · Calculadora React](Aula3/) | Calculadora com operações básicas, porcentagem e inversão de sinal. | [Ir para o deploy](https://framework-frontend-aula3.vercel.app/) |
-| [Aula 4 · Projetos frontend com APIs](Aula4/) | Repositórios clonados para estudo de interfaces e integração com APIs. | [Ir para o repositório](Aula4/) |
-| [Aula 5 · Aplicativo de notas](Aula5/) | Interface React para cadastrar, consultar, editar e excluir notas por uma API Express. | [Ir para o deploy](https://expressfrontendaula5.vercel.app/) |
-| [Aula 6 · Projetos Front-End](Aula6/) | Material em PDF sobre desenvolvimento e gestão de projetos front-end. | [Ir para o repositório](Aula6/) |
-| [Aula 7 · Atividade 1](Aula7/Atividade1/) | Atividade de interface com HTML e CSS. | [Ir para o deploy](https://aula7-atividade1.vercel.app/) |
-| [Aula 7 · Atividade 2](Aula7/Atividade2/) | Atividade de interface com Tailwind CSS. | [Ir para o deploy](https://aula7-atividade2.vercel.app/) |
-| [Aula 8 · Gerenciador de tarefas](Aula8/) | Aplicação para organizar tarefas construída com React e Vite. | [Ir para o deploy](https://react-gerenciador-tarefas-opal.vercel.app/) |
+| --- | --- | :---: |
+| [Aula 1<br>Relatório sobre Vue](Aula1/) | Relatório técnico sobre o framework Vue. | [Ir&nbsp;para&nbsp;o&nbsp;repositório](Aula1/) |
+| [Aula 2<br>Super Calculadora Mario](Aula2/) | Calculadora temática em Next.js. | [Ir&nbsp;para&nbsp;o&nbsp;deploy](https://calculadora-mario.vercel.app/) |
+| [Aula 3<br>Calculadora React](Aula3/) | Operações básicas, porcentagem e inversão de sinal. | [Ir&nbsp;para&nbsp;o&nbsp;deploy](https://framework-frontend-aula3.vercel.app/) |
+| [Aula 4<br>Projetos frontend com APIs](Aula4/) | Repositórios clonados para estudo de interfaces e APIs. | [Ir&nbsp;para&nbsp;o&nbsp;repositório](Aula4/) |
+| [Aula 5<br>Aplicativo de notas](Aula5/) | Criação e gestão de notas com React e API Express. | [Ir&nbsp;para&nbsp;o&nbsp;deploy](https://expressfrontendaula5.vercel.app/) |
+| [Aula 6<br>Projetos Front-End](Aula6/) | PDF sobre desenvolvimento e gestão de projetos front-end. | [Ir&nbsp;para&nbsp;o&nbsp;repositório](Aula6/) |
+| [Aula 7<br>Atividade 1](Aula7/Atividade1/) | Exercício de interface com HTML e CSS. | [Ir&nbsp;para&nbsp;o&nbsp;deploy](https://aula7-atividade1.vercel.app/) |
+| [Aula 7<br>Atividade 2](Aula7/Atividade2/) | Exercício de interface com Tailwind CSS. | [Ir&nbsp;para&nbsp;o&nbsp;deploy](https://aula7-atividade2.vercel.app/) |
+| [Aula 8<br>Gerenciador de tarefas](Aula8/) | Organização de tarefas com React e Vite. | [Ir&nbsp;para&nbsp;o&nbsp;deploy](https://react-gerenciador-tarefas-opal.vercel.app/) |
 
 A [Aula 1](Aula1/) contém um relatório sobre Vue, a [Aula 4](Aula4/) reúne repositórios clonados para estudo e a [Aula 6](Aula6/) contém material da disciplina em PDF.
 
