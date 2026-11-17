@@ -1,8 +1,8 @@
 [API publicada no Render](https://express-crud-json.onrender.com/api/notes) · [Interface na Vercel](https://expressfrontendaula5.vercel.app/)
 
-# 🚀 API CRUD de Notas com Node.js + Express
+# API CRUD de Notas com Node.js + Express
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 Este projeto é uma **API RESTful** desenvolvida com **Node.js** e **Express.js** para gerenciar notas.
 
 Os dados são armazenados em um arquivo local chamado `data.json`, simulando um banco de dados simples.
@@ -11,7 +11,7 @@ A aplicação permite criar, listar, buscar, editar e excluir notas através de 
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - Node.js
 - Express.js
 - Body-Parser
@@ -22,7 +22,7 @@ A aplicação permite criar, listar, buscar, editar e excluir notas através de 
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
     projeto-notas/
     ├── node_modules/
@@ -33,7 +33,7 @@ A aplicação permite criar, listar, buscar, editar e excluir notas através de 
 
 ---
 
-## 📄 Função de Cada Arquivo
+## Função de Cada Arquivo
 
 | Arquivo | Função |
 |--------|--------|
@@ -43,7 +43,7 @@ A aplicação permite criar, listar, buscar, editar e excluir notas através de 
 
 ---
 
-## ⚙️ Configuração Inicial
+## Configuração Inicial
 
 ### Importação de módulos
 
@@ -60,7 +60,7 @@ A aplicação permite criar, listar, buscar, editar e excluir notas através de 
 
 ---
 
-## 🚪 Inicialização do Servidor
+## Inicialização do Servidor
 
     const app = express();
     const PORT = process.env.PORT || 3000;
@@ -71,7 +71,7 @@ A aplicação permite criar, listar, buscar, editar e excluir notas através de 
 
 ---
 
-## 📂 Arquivo de Dados
+## Arquivo de Dados
 
     const DATA_FILE = path.join(__dirname, 'data.json');
 
@@ -79,7 +79,7 @@ Define onde as notas serão armazenadas.
 
 ---
 
-## 🔄 Middleware JSON
+## Middleware JSON
 
     app.use(bodyParser.json());
 
@@ -94,7 +94,7 @@ Exemplo:
 
 ---
 
-## 🌍 Middleware CORS
+## Middleware CORS
 
     app.use((req, res, next) => {
       res.setHeader('Access-Control-Allow-Origin', '*');
@@ -107,9 +107,9 @@ Libera acesso da API para aplicações frontend.
 
 ---
 
-## 🧠 Funções Auxiliares
+## Funções Auxiliares
 
-### 📖 Ler Notas
+### Ler Notas
 
     const readNotes = () => {
       try {
@@ -127,7 +127,7 @@ Libera acesso da API para aplicações frontend.
 
 ---
 
-### 💾 Salvar Notas
+### Salvar Notas
 
     const writeNotes = (notes) => {
       fs.writeFileSync(DATA_FILE, JSON.stringify(notes, null, 2));
@@ -137,9 +137,9 @@ Grava todas as notas no arquivo `data.json`.
 
 ---
 
-## 📌 Rotas CRUD
+## Rotas CRUD
 
-### 📥 GET /api/notes
+### GET /api/notes
 
 Lista todas as notas.
 
@@ -150,7 +150,7 @@ Lista todas as notas.
 
 ---
 
-### ➕ POST /api/notes
+### POST /api/notes
 
 Cria uma nova nota.
 
@@ -179,7 +179,7 @@ Cria uma nova nota.
 
 ---
 
-### 🔍 GET /api/notes/:id
+### GET /api/notes/:id
 
 Busca uma nota específica pelo ID.
 
@@ -198,7 +198,7 @@ Busca uma nota específica pelo ID.
 
 ---
 
-### ✏️ PUT /api/notes/:id
+### PUT /api/notes/:id
 
 Atualiza uma nota existente.
 
@@ -232,7 +232,7 @@ Atualiza uma nota existente.
 
 ---
 
-### 🗑️ DELETE /api/notes/:id
+### DELETE /api/notes/:id
 
 Remove uma nota.
 
@@ -254,7 +254,7 @@ Remove uma nota.
 
 ---
 
-## ▶️ Inicialização do Servidor
+## Inicialização do Servidor
 
     app.listen(PORT, () => {
       console.log(`Server running on port ${PORT}`);
@@ -271,7 +271,7 @@ Ao iniciar:
 
 ---
 
-## 💻 Como Executar
+## Como Executar
 
 ### Instalar dependências
 
@@ -287,13 +287,13 @@ ou
 
 ---
 
-## 🌐 URL Local
+## URL Local
 
     http://localhost:3000
 
 ---
 
-## 📬 Endpoints Resumo
+## Endpoints Resumo
 
 | Método | Rota | Função |
 |--------|------|--------|
@@ -305,7 +305,7 @@ ou
 
 ---
 
-## ⚠️ Limitações do Projeto
+## Limitações do Projeto
 Por usar arquivo JSON:
 
 - Não escala bem
@@ -316,7 +316,7 @@ Por usar arquivo JSON:
 
 ---
 
-## 🚀 Melhorias Futuras
+## Melhorias Futuras
 - MongoDB / MySQL
 - Autenticação JWT
 - Validação com Joi/Zod
@@ -326,7 +326,7 @@ Por usar arquivo JSON:
 
 ---
 
-## 🎯 Objetivo Educacional
+## Objetivo Educacional
 Ideal para aprender:
 
 - Express.js
